@@ -1,0 +1,93 @@
+.aem-feature-banner {
+  height: 234px;
+  background: var(--athens-gray-eef2f4) 0% 0% no-repeat padding-box;
+  background: #eef2f4 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.aem-feature-banner .aem-feature-content {
+  width: 776px;
+  height: 117px;
+  margin: 0 auto;
+  margin-top: 56.5px;
+}
+
+.aem-feature-banner .aem-feature-content ul {
+  width: 100%;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aem-feature-banner .aem-feature-content ul li {
+  height: 40px;
+  width: 146px;
+  display: block;
+}
+
+.aem-feature-banner .aem-feature-content ul li .icon {
+  opacity: 1;
+  height: 27px;
+  width: 27px;
+  margin: 0 auto;
+}
+
+.aem-feature-banner .aem-feature-content ul li .discription {
+  font: var(--unnamed-font-style-normal) normal 600 16px/19px var(--unnamed-font-family-proxima-nova);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--oxford-blue-354e57);
+  text-align: center;
+  font: normal normal 600 16px/19px Proxima Nova;
+  letter-spacing: 0px;
+  color: #354e57;
+  opacity: 1;
+  margin-top: 22.13px;
+}
+
+.aem-feature-banner .aem-feature-content ul li .link-store-locator {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 12px/15px var(--unnamed-font-family-proxima-nova);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--oxford-blue-354e57);
+  text-align: center;
+  text-decoration: underline;
+  font: normal normal normal 12px/15px Proxima Nova;
+  letter-spacing: 0px;
+  color: #354e57;
+  opacity: 1;
+  margin-top: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .aem-feature-banner {
+    height: auto !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    position: relative;
+  }
+  .aem-feature-content {
+    width: auto !important;
+    height: auto !important;
+    margin-top: 91px !important;
+  }
+  .aem-feature-content ul {
+    display: -ms-grid !important;
+    display: grid !important;
+  }
+  .aem-feature-content ul li {
+    margin-bottom: 76px !important;
+    height: 100% !important;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=featurebanner.css.map */

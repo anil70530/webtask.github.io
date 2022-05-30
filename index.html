@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AEM 1st Assignment</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script type="text/javascript" src="./js/script.js"></script>
+  </head>
+  <body>
+    <div class="aem-Grid aem-Grid--default--12">
+      <div class="aem-Container">
+        <!-- Offer banner Component -->
+        <section class="aem-Offerbanner">
+          <p>Free Standard Shipping on orders over $99.99</p>
+        </section>
+        <!-- end -->
+        <!-- Header banner component -->
+        <header class="aem-Grid aem-Grid--default--12 aem-Header">
+          <div
+            class="aem-GridColumn aem-GridColumn--default--2 aem-baricon aem-baricon-response"
+            onclick="onclickHandler()"
+          >
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </div>
+
+          <div class="aem-GridColumn aem-GridColumn--default--4 aem-Topheader">
+            <ul class="nav-left">
+              <li>About</li>
+              <li>Consulation</li>
+            </ul>
+          </div>
+
+          <div class="aem-GridColumn aem-GridColumn--default--4 aem-Logo">
+            <span> sooth </span>
+          </div>
+          <div class="aem-GridColumn aem-GridColumn--default--4 aem-Navheader">
+            <div class="aem-close" onclick="closeHandler()">X</div>
+            <ul class="nav-right">
+              <li class="aem-cart">
+                <span>
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </span>
+                Cart
+              </li>
+              <li class="aem-login">Login</li>
+            </ul>
+          </div>
+          <div
+            id="navigation"
+            class="aem-GridColumn aem-GridColumn--default--12"
+          >
+            <section class="aem-navigation">
+              <ul>
+                <li>Acne</li>
+                <li>Sun</li>
+                <li>Ezcema</li>
+                <li>Psoriasis</li>
+                <li>Vitilligia</li>
+              </ul>
+            </section>
+          </div>
+        </header>
+        <!-- Header end -->
+        <!-- Hero banner -->
+        <div class="aem-Grid aem-Grid--default--12">
+          <section class="aem-hero-banner">
+            <div class="aem-container">
+              <div class="aem-column-wrapper">
+                <div class="aem-content-wrapper">
+                  <div class="aem-banner-title">
+                    <div class="aem-new"><button class="btn-new-sm">New!</button></div>
+                    <p class="headline-—-48pt">All Natural <br>Skin Remedies. </p>
+                  
+                    <p class="aem-description">
+                      A healthier you from the inside out. We’ve sourced the
+                      cleanest ingredients to create a line of clean skin care
+                      treatments that leave you feeling your best
+                    </p>
+                  </div>
+                    <div class="aem-soap-products">
+                      <button class="btn btn-standard headline-6-—-14pt">Shop products</button>
+                    </div>
+                 
+                  
+                </div>
+                <div class="aem-img-wrapper">
+                  <div class="aem-inner-wrapper">
+                    <img src="./image/Sooth_home/ezcema-1@2x.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!-- End Hero banner -->
+        <!--Secondary banner-->
+        <div class="aem-Grid aem-Grid--default--12">
+           <div class="aem-secondary-banner">
+             <div class="aem-content">
+              <div class="headline-4-—-28pt">
+                Solutions for all skin health
+              </div>
+                <p>
+                  Explore our innovative skincare products
+                </p>
+             </div>
+           
+
+             </div>
+            
+           </div>
+
+           <!-- end secondary banner -->
+          <!--Feature banner-->
+           <div class="aem-Grid aem-Grid--default--12">
+               <section class="aem-feature-banner">
+                 <div class="aem-feature-content">
+                    <ul>
+                      <li>
+                        <div class="icon">
+                          <img src="image/storefront-outline.svg">
+                        </div>
+                         <div class="discription">We’re offering new ways to shop.</div>
+                          <div class="link-store-locator">Store locator</div>
+                      </li>
+                      <li><div class="icon">
+                        <img src="image/cart.svg">
+                      </div>
+                       <div class="discription">Buy online, pickup in store</div>
+                        <div class="link-store-locator">Learn more</div></li>
+                      <li>
+                        <div class="icon">
+                          <img src="image/call-outline.svg">
+                        </div>
+                         <div class="discription">Curbside <br>pickup</div>
+                          <div class="link-store-locator">Learn more</div>
+                      </li>
+                    </ul>
+                 </div>
+               </section>
+          </div> 
+          <!-- end of Feature banner -->
+          <!--News banner-->
+          <div class="aem-Grid aem-Grid--default--12">
+            <section class="aem-news--banner">
+              <div class="aem-news-content">
+               
+                   <div class="aem-title-text">
+                    <span>Join the Sooth family</span>
+                   </div>
+                    <div class="line-border"></div>
+                   <div class="aem-pragraph">
+                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p> 
+                  </div>
+                   <div class="aem-subscribe">
+                    <input type="text" class="form-control-error"/>
+                     <button class="btn-subscribe btn-subscribe-standard">Subscribe</button>  
+                        
+                   </div>
+              </div>
+            </section>
+
+          </div>
+          <!-- end of News banner -->
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

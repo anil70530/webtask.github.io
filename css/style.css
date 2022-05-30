@@ -1,0 +1,17 @@
+@import url(./aem-grid/aem-grid.css);
+@import url(./variable.css);
+@import url(./button.css);
+@import url(./header.css);
+@import url(./herobanner.css);
+@import url(./secondarybanner.css);
+@import url(./featurebanner.css);
+@import url(./newsbanner.css);
+@import url(./input.css);
+@import url("https://use.typekit.net/ywo2tgu.css");
+@import url(./font/Somatic-Rounded.otf);
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: var(--unnamed-font-family-proxima-nova);
+}
+/*# sourceMappingURL=style.css.map */
