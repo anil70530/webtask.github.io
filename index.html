@@ -6,10 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AEM 1st Assignment</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
     <script type="text/javascript" src="./js/script.js"></script>
   </head>
   <body>
@@ -26,7 +22,9 @@
             class="aem-GridColumn aem-GridColumn--default--2 aem-baricon aem-baricon-response"
             onclick="onclickHandler()"
           >
-            <i class="fa fa-bars" aria-hidden="true"></i>
+          <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Menu</title><path fill="#354E57" stroke="#354E57" stroke-linecap="round" stroke-miterlimit="10" stroke-width="40" d="M80 160h352M80 256h352M80 352h352"/></svg>
+
+         
           </div>
 
           <div class="aem-GridColumn aem-GridColumn--default--4 aem-Topheader">
@@ -40,11 +38,12 @@
             <span> sooth </span>
           </div>
           <div class="aem-GridColumn aem-GridColumn--default--4 aem-Navheader">
-            <div class="aem-close" onclick="closeHandler()">X</div>
+            <div class="aem-close" onclick="closeHandler()"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Close</title><path fill="none" stroke="#354E57" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M368 368L144 144M368 144L144 368"/></svg>
+            </div>
             <ul class="nav-right">
               <li class="aem-cart">
                 <span>
-                  <i class="fa fa-search" aria-hidden="true"></i>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Search</title><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="74"></path><path fill="#354E57" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="74" d="M338.29 338.29L448 448"></path></svg>
                 </span>
                 Cart
               </li>
@@ -86,8 +85,6 @@
                     <div class="aem-soap-products">
                       <button class="btn btn-standard headline-6-—-14pt">Shop products</button>
                     </div>
-                 
-                  
                 </div>
                 <div class="aem-img-wrapper">
                   <div class="aem-inner-wrapper">
@@ -110,13 +107,90 @@
                   Explore our innovative skincare products
                 </p>
              </div>
-           
-
              </div>
-            
            </div>
 
            <!-- end secondary banner -->
+           <!-- Image tiles -->
+          <div class="aem-Grid aem-Grid--default--12 aem-Grid--tablet--8 aem-Grid--phone--2 img-tiles">
+              <div class="aem-product-tiles">
+                <div class="aem-header-title">
+                   <h3>We use the best ingredients</h3>
+                   <p>Explore our innovative skincare products</p>
+                </div>
+                <div class="aem-Grid aem-Grid--default--12 aem-Grid--tablet--12 aem-Grid--phone--3 tiles-image">
+                <div class="aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--tablet--4 aem-GridColumn--phone--3">
+                  <div class="aem-tiles-card">
+                    <div class="tiles-card image-1"></div>
+                    <div class="tiles-name">
+                      Cacao
+                    </div>
+                    <div class="tiles-description">
+  Lorem ipsum dolar et al
+                    </div>
+                  </div>
+                </div>
+                <div class="aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--tablet--4 aem-GridColumn--phone--3">
+                  <div class="aem-tiles-card">
+                    <div class="tiles-card image-2"></div>
+                    <div class="tiles-name">
+                      Honey
+                    </div>
+                    <div class="tiles-description">
+  Lorem ipsum dolar et al
+                    </div>
+                  </div>
+                </div>
+                <div class="aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--tablet--4 aem-GridColumn--phone--3">
+                  <div class="aem-tiles-card">
+                    <div class="tiles-card image-3"></div>
+                    <div class="tiles-name">
+                      Mint
+                    </div>
+                    <div class="tiles-description">
+  Lorem ipsum dolar et al
+                    </div>
+                  </div>
+                </div>
+                <div class="aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--tablet--4 aem-GridColumn--phone--3">
+                  <div class="aem-tiles-card">
+                    <div class="tiles-card image-4"></div>
+                    <div class="tiles-name">
+                      Coconut root
+                    </div>
+                    <div class="tiles-description">
+  Lorem ipsum dolar et al
+                    </div>
+                  </div>
+                </div>
+                <div class="aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--tablet--4 aem-GridColumn--phone--3">
+                  <div class="aem-tiles-card">
+                    <div class="tiles-card image-5"></div>
+                    <div class="tiles-name">
+                      Flour
+                    </div>
+                    <div class="tiles-description">
+  Lorem ipsum dolar et al
+                    </div>
+                  </div>
+                </div>
+                <div class="aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--tablet--4 aem-GridColumn--phone--3">
+                  <div class="aem-tiles-card">
+                    <div class="tiles-card image-6"></div>
+                    <div class="tiles-name">
+                      Cacao
+                    </div>
+                    <div class="tiles-description">
+  Lorem ipsum dolar et al
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+          </div>
+          <!-- end image tiles -->
+
+
           <!--Feature banner-->
            <div class="aem-Grid aem-Grid--default--12">
                <section class="aem-feature-banner">
@@ -150,7 +224,6 @@
           <div class="aem-Grid aem-Grid--default--12">
             <section class="aem-news--banner">
               <div class="aem-news-content">
-               
                    <div class="aem-title-text">
                     <span>Join the Sooth family</span>
                    </div>
@@ -161,11 +234,9 @@
                    <div class="aem-subscribe">
                     <input type="text" class="form-control-error"/>
                      <button class="btn-subscribe btn-subscribe-standard">Subscribe</button>  
-                        
                    </div>
               </div>
             </section>
-
           </div>
           <!-- end of News banner -->
 

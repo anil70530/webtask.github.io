@@ -1,0 +1,100 @@
+.img-tiles {
+  background: var(--alabasterr-f7f7f7) 0% 0% no-repeat padding-box;
+}
+
+.img-tiles .aem-product-tiles {
+  max-width: 912px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.img-tiles .aem-product-tiles .aem-header-title h3 {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-28)/var(--unnamed-line-spacing-34) var(--unnamed-font-family-proxima-nova);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--oxford-blue-354e57);
+  text-align: center;
+  opacity: 1;
+}
+
+.img-tiles .aem-product-tiles .aem-header-title p {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/var(--unnamed-line-spacing-24) var(--unnamed-font-family-proxima-nova);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--oxford-blue-354e57);
+  text-align: center;
+  opacity: 1;
+}
+
+.img-tiles .aem-product-tiles .tiles-image {
+  margin: 125px auto 191px auto;
+}
+
+.img-tiles .aem-product-tiles .tiles-image .aem-tiles-card {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.img-tiles .aem-product-tiles .tiles-image .aem-tiles-card .tiles-card {
+  width: 210px;
+  height: 222px;
+  display: block;
+}
+
+.img-tiles .aem-product-tiles .tiles-image .aem-tiles-card .image-1 {
+  background: var(--alabasterr-f7f7f7) url(../image/Sooth_home/138-1380767_transparent-ingredients-png-pizza-ingredients-png-png-download.png);
+  background-repeat: no-repeat;
+  background-position: 2% 60%;
+  background-origin: content-box;
+}
+
+.img-tiles .aem-product-tiles .tiles-image .aem-tiles-card .image-2 {
+  background: var(--alabasterr-f7f7f7) url(../image/Sooth_home/138-1380767_transparent-ingredients-png-pizza-ingredients-png-png-download.png);
+  background-repeat: no-repeat;
+  background-position: 98% 58%;
+  background-origin: content-box;
+}
+
+.img-tiles .aem-product-tiles .tiles-image .aem-tiles-card .image-3 {
+  background: var(--alabasterr-f7f7f7) url(../image/Sooth_home/138-1380767_transparent-ingredients-png-pizza-ingredients-png-png-download.png);
+  background-repeat: no-repeat;
+  background-position: 98% 0%;
+  background-origin: content-box;
+}
+
+.img-tiles .aem-product-tiles .tiles-image .aem-tiles-card .image-4 {
+  background: var(--alabasterr-f7f7f7) url(../image/Sooth_home/138-1380767_transparent-ingredients-png-pizza-ingredients-png-png-download.png);
+  background-repeat: no-repeat;
+  background-position: 8% 91%;
+  background-origin: content-box;
+}
+
+.img-tiles .aem-product-tiles .tiles-image .aem-tiles-card .image-5 {
+  background: var(--alabasterr-f7f7f7) url(../image/Sooth_home/138-1380767_transparent-ingredients-png-pizza-ingredients-png-png-download.png);
+  background-repeat: no-repeat;
+  background-position: 98% 91%;
+  background-origin: content-box;
+}
+
+.img-tiles .aem-product-tiles .tiles-image .aem-tiles-card .image-6 {
+  background: var(--alabasterr-f7f7f7) url(../image/Sooth_home/138-1380767_transparent-ingredients-png-pizza-ingredients-png-png-download.png);
+  background-repeat: no-repeat;
+  background-position: 11% 0%;
+  background-origin: content-box;
+}
+
+.img-tiles .aem-product-tiles .tiles-image .aem-tiles-card .tiles-name {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-proxima-nova);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--oxford-blue-354e57);
+  text-align: center;
+  opacity: 1;
+  padding-bottom: 19px;
+}
+
+.img-tiles .aem-product-tiles .tiles-image .aem-tiles-card .tiles-description {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 12px/16px var(--unnamed-font-family-proxima-nova);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--rangitoto-2e2e22);
+  text-align: center;
+  opacity: 1;
+}
+/*# sourceMappingURL=imagetiles.css.map */
