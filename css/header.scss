@@ -61,14 +61,11 @@
           text-transform: uppercase;
           opacity: 1;
           padding-right: 46px;
+          display: flex;
         }
         span {
-          i {
-            font-size: 12px;
-            color: var(--oxford-blue-354e57) 0% 0% no-repeat padding-box;
-            opacity: 1;
-            padding-right: 39px;
-          }
+          width: 10px;
+          padding-right: 39.8px;
         }
       }
     }
@@ -122,8 +119,13 @@
   .aem-Container .aem-Header ul.nav-right li {
     padding-right: 0px !important;
   }
-  .aem-Container .aem-Header ul.nav-right li.aem-cart i {
-    padding-right: 14.8px !important;
+  .aem-Container .aem-Header ul.nav-right li.aem-cart {
+    display: flex;
+    span {
+      width: 10px;
+      padding-right: 15px !important;
+      padding-top: 2px;
+    }
   }
   .aem-response {
     position: fixed;
@@ -163,6 +165,7 @@
     font-size: 20.95px;
     color: var(--oxford-blue-354e57);
     font-weight: var(--unnamed-font-weight-bold);
+    width: 30px;
   }
   .aem-Header .aem-baricon {
     float: left !important;
@@ -184,7 +187,7 @@
     font-size: 25px !important;
     font-weight: bold;
     opacity: 1 !important;
-    line-height: 20px;
+    line-height: 26px;
   }
   .aem-response .aem-Logo {
     display: none !important;
@@ -202,7 +205,7 @@
   }
 
   li.aem-login {
-    display: none;
+    display: none !important;
   }
   .aem-response .navbar {
     display: block !important;
