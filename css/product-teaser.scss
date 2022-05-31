@@ -1,0 +1,122 @@
+.aem-product-teaser {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 40px 0 29px;
+  .text-wrapper {
+    font: var(--unnamed-font-style-normal) normal
+      var(--unnamed-font-weight-bold) var(--unnamed-font-size-14) /
+      var(--unnamed-line-spacing-17) var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--rangitoto-2e2e22);
+    opacity: 1;
+  }
+}
+
+.aem-container {
+  max-width: 85%;
+  margin: 0 auto 111px auto;
+  
+  .card {
+    .aem-card-wrapper {
+      width: 251px;
+      height: 462px;
+      display: block;
+      position: relative;
+      .aem-badge {
+        position: absolute;
+        top: 12px;
+        left: 15px;
+        font-weight: 600;
+        font-size: var(--unnamed-font-size-12);
+        color: var(--oxford-blue-354e57);
+        padding: 9px 11px;
+        background-color: var(--alabasterr-f7f7f7);
+        &.offer {
+          color: var(--cape-palliser-a67744);
+          font-size: var(--unnamed-font-size-12);
+        }
+      }
+
+      .aem-card-image {
+        height: 346px;
+        background-color: #ffffff;
+        margin-top: 10px;
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+
+      .aem-card-title {
+        font: var(--unnamed-font-style-normal) normal
+          var(--unnamed-font-weight-bold) var(--unnamed-font-size-14) /
+          var(--unnamed-line-spacing-17) var(--unnamed-font-family-proxima-nova);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--rangitoto-2e2e22);
+        text-align: left;
+        margin-top: 14px;
+      }
+      .aem-card-short-description {
+        font: var(--unnamed-font-style-normal) normal
+          var(--unnamed-font-weight-normal) 12px/16px
+          var(--unnamed-font-family-proxima-nova);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--rangitoto-2e2e22);
+        text-align: left;
+        font: normal normal normal 12px/16px Proxima Nova;
+        letter-spacing: 0px;
+        color: #2e2e22;
+        opacity: 1;
+      }
+      .aem-card-price {
+        line-height: 15px;
+        padding-top: 9px;
+
+        .disc-price {
+          color: var(--cape-palliser-a67744);
+          font-size: var(--unnamed-font-size-12);
+          font-weight: bold;
+        }
+        .actual-price {
+          font-size: var(--unnamed-font-size-12);
+          font-weight: bold;
+          color: var(--rangitoto-2e2e22);
+        }
+      }
+      .aem-add-cart-input {
+          margin-top: 10px;
+        .btn-with-icon {
+            font-size: 15px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+    .aem-product-teaser{
+        display: none;
+    }
+    .aem-container {
+        max-width: none !important;
+    }
+    .aem-container .card {
+        margin-left: 21px;
+        width: calc(50% - 35px) !important;
+        max-width: none;
+    }
+    .aem-card-wrapper{
+        width:152px !important;
+        height: 356px !important;
+    }
+    .aem-card-wrapper .aem-card-image img{
+        object-fit: contain;
+    }
+    .aem-card-wrapper .aem-card-image{
+        height: 229px !important;
+    }
+    .btn-with-icon{
+        min-width: 100%!important;
+    }
+}

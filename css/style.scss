@@ -8,6 +8,7 @@
 @import url(./newsbanner.css);
 @import url(./input.css);
 @import url(./imagetiles.css);
+@import url(./product-teaser.css);
 @import url("https://use.typekit.net/ywo2tgu.css");
 @import url(./font/Somatic-Rounded.otf);
 * {
@@ -16,4 +17,6 @@
   font-family: var(--unnamed-font-family-proxima-nova);
  
 }
-
+.bg-primary{
+  background-color: #eef3f4;
+}

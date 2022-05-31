@@ -1,5 +1,5 @@
 onclickHandler = () => {
-  var addClassHeader = document.getElementsByClassName("aem-Header");
+  var addClassHeader = document.getElementsByClassName("aem-header");
   addClassHeader[0].classList.add("aem-response");
   var getElement = document.getElementById("navigation");
   getElement.classList.add("navbar");
@@ -9,7 +9,7 @@ onclickHandler = () => {
   getElementsHeaderClose[0].classList.add("aem-close-isActive");
 };
 closeHandler = () => {
-  var addClassHeader = document.getElementsByClassName("aem-Header");
+  var addClassHeader = document.getElementsByClassName("aem-header");
   addClassHeader[0].classList.remove("aem-response");
   var getElement = document.getElementById("navigation");
   getElement.classList.remove("navbar");

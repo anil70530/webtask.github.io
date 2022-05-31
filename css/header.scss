@@ -20,10 +20,10 @@
       line-height: 35px;
     }
   }
-  .aem-Header {
+  .aem-header {
     text-align: center;
     height: 84px;
-    max-width: 1196px;
+    max-width: 1216px;
     margin: 44px auto 0px auto;
     .aem-baricon {
       display: none;
@@ -69,7 +69,7 @@
         }
       }
     }
-    .aem-Logo {
+    .aem-logo {
       text-align: left;
       letter-spacing: 1.6px;
       color: #293d45;
@@ -78,10 +78,10 @@
       font-size: var(--unnamed-font-size-32);
       font-family: var(--unnamed-font-family-somatic-sounded);
     }
-    .aem-Topheader {
+    .aem-topheader {
       margin-top: 14px;
     }
-    .aem-Navheader {
+    .aem-navheader {
       margin-top: 14px;
     }
     .aem-navigation {
@@ -106,20 +106,20 @@
 
 /* phone breakpoint */
 @media screen and (max-width: 768px) {
-  .aem-Header div {
+  .aem-header div {
     display: none;
   }
-  .aem-Header {
+  .aem-header {
     height: 25px !important;
     width: 332px !important;
     margin-top: 31px !important;
     position: relative;
     margin-left: 11px;
   }
-  .aem-Container .aem-Header ul.nav-right li {
+  .aem-Container .aem-header ul.nav-right li {
     padding-right: 0px !important;
   }
-  .aem-Container .aem-Header ul.nav-right li.aem-cart {
+  .aem-Container .aem-header ul.nav-right li.aem-cart {
     display: flex;
     span {
       width: 10px;
@@ -139,19 +139,19 @@
     transition: opacity 2s linear;
   }
 
-  .aem-response .aem-Topheader {
+  .aem-response .aem-topheader {
     display: block;
     position: absolute;
     bottom: 84px;
   }
-  .aem-response .aem-Topheader ul.nav-left {
+  .aem-response .aem-topheader ul.nav-left {
     display: block !important;
     padding-left: 57px !important;
   }
   .aem-response ul.nav-right li.aem-cart {
     padding-right: 57px !important;
   }
-  .aem-response .aem-Topheader ul.nav-left li {
+  .aem-response .aem-topheader ul.nav-left li {
     padding: 11px;
     cursor: pointer;
   }
@@ -167,7 +167,7 @@
     font-weight: var(--unnamed-font-weight-bold);
     width: 30px;
   }
-  .aem-Header .aem-baricon {
+  .aem-header .aem-baricon {
     float: left !important;
     display: block !important;
     font-size: 1.5rem !important;
@@ -180,7 +180,7 @@
   .aem-response .aem-baricon {
     display: none !important;
   }
-  .aem-Header .aem-Logo {
+  .aem-Hheader .aem-logo {
     float: left !important;
     display: block !important;
     color: #293d45;
@@ -189,15 +189,15 @@
     opacity: 1 !important;
     line-height: 26px;
   }
-  .aem-response .aem-Logo {
+  .aem-response .aem-logo {
     display: none !important;
   }
-  .aem-response .aem-Navheader {
+  .aem-response .aem-navheader {
     width: 100% !important;
     top: 57px;
     position: absolute !important;
   }
-  .aem-Header .aem-Navheader {
+  .aem-header .aem-navheader {
     margin-top: 8px !important;
     display: block !important;
     position: absolute;

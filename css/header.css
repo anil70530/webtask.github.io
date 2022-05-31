@@ -22,32 +22,32 @@
   line-height: 35px;
 }
 
-.aem-Container .aem-Header {
+.aem-Container .aem-header {
   text-align: center;
   height: 84px;
-  max-width: 1196px;
+  max-width: 1216px;
   margin: 44px auto 0px auto;
 }
 
-.aem-Container .aem-Header .aem-baricon {
+.aem-Container .aem-header .aem-baricon {
   display: none;
 }
 
-.aem-Container .aem-Header .aem-close {
+.aem-Container .aem-header .aem-close {
   display: none;
 }
 
-.aem-Container .aem-Header ul {
+.aem-Container .aem-header ul {
   list-style: none;
 }
 
-.aem-Container .aem-Header ul.nav-left {
+.aem-Container .aem-header ul.nav-left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.aem-Container .aem-Header ul.nav-left li {
+.aem-Container .aem-header ul.nav-left li {
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 12px/14px var(--unnamed-font-family-proxima-nova);
   color: var(--oxford-blue-354e57);
   text-align: left;
@@ -57,14 +57,14 @@
   padding-left: 47px;
 }
 
-.aem-Container .aem-Header ul.nav-right {
+.aem-Container .aem-header ul.nav-right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   float: right;
 }
 
-.aem-Container .aem-Header ul.nav-right li {
+.aem-Container .aem-header ul.nav-right li {
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 12px/14px var(--unnamed-font-family-proxima-nova);
   color: var(--oxford-blue-354e57);
   text-align: left;
@@ -77,12 +77,12 @@
   display: flex;
 }
 
-.aem-Container .aem-Header ul.nav-right span {
+.aem-Container .aem-header ul.nav-right span {
   width: 10px;
   padding-right: 39.8px;
 }
 
-.aem-Container .aem-Header .aem-Logo {
+.aem-Container .aem-header .aem-logo {
   text-align: left;
   letter-spacing: 1.6px;
   color: #293d45;
@@ -92,20 +92,20 @@
   font-family: var(--unnamed-font-family-somatic-sounded);
 }
 
-.aem-Container .aem-Header .aem-Topheader {
+.aem-Container .aem-header .aem-topheader {
   margin-top: 14px;
 }
 
-.aem-Container .aem-Header .aem-Navheader {
+.aem-Container .aem-header .aem-navheader {
   margin-top: 14px;
 }
 
-.aem-Container .aem-Header .aem-navigation ul {
+.aem-Container .aem-header .aem-navigation ul {
   list-style: none;
   margin-top: 25px;
 }
 
-.aem-Container .aem-Header .aem-navigation ul li {
+.aem-Container .aem-header .aem-navigation ul li {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -119,25 +119,25 @@
 
 /* phone breakpoint */
 @media screen and (max-width: 768px) {
-  .aem-Header div {
+  .aem-header div {
     display: none;
   }
-  .aem-Header {
+  .aem-header {
     height: 25px !important;
     width: 332px !important;
     margin-top: 31px !important;
     position: relative;
     margin-left: 11px;
   }
-  .aem-Container .aem-Header ul.nav-right li {
+  .aem-Container .aem-header ul.nav-right li {
     padding-right: 0px !important;
   }
-  .aem-Container .aem-Header ul.nav-right li.aem-cart {
+  .aem-Container .aem-header ul.nav-right li.aem-cart {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  .aem-Container .aem-Header ul.nav-right li.aem-cart span {
+  .aem-Container .aem-header ul.nav-right li.aem-cart span {
     width: 10px;
     padding-right: 15px !important;
     padding-top: 2px;
@@ -154,19 +154,19 @@
     -webkit-transition: opacity 2s linear;
     transition: opacity 2s linear;
   }
-  .aem-response .aem-Topheader {
+  .aem-response .aem-topheader {
     display: block;
     position: absolute;
     bottom: 84px;
   }
-  .aem-response .aem-Topheader ul.nav-left {
+  .aem-response .aem-topheader ul.nav-left {
     display: block !important;
     padding-left: 57px !important;
   }
   .aem-response ul.nav-right li.aem-cart {
     padding-right: 57px !important;
   }
-  .aem-response .aem-Topheader ul.nav-left li {
+  .aem-response .aem-topheader ul.nav-left li {
     padding: 11px;
     cursor: pointer;
   }
@@ -182,7 +182,7 @@
     font-weight: var(--unnamed-font-weight-bold);
     width: 30px;
   }
-  .aem-Header .aem-baricon {
+  .aem-header .aem-baricon {
     float: left !important;
     display: block !important;
     font-size: 1.5rem !important;
@@ -194,7 +194,7 @@
   .aem-response .aem-baricon {
     display: none !important;
   }
-  .aem-Header .aem-Logo {
+  .aem-Hheader .aem-logo {
     float: left !important;
     display: block !important;
     color: #293d45;
@@ -203,15 +203,15 @@
     opacity: 1 !important;
     line-height: 26px;
   }
-  .aem-response .aem-Logo {
+  .aem-response .aem-logo {
     display: none !important;
   }
-  .aem-response .aem-Navheader {
+  .aem-response .aem-navheader {
     width: 100% !important;
     top: 57px;
     position: absolute !important;
   }
-  .aem-Header .aem-Navheader {
+  .aem-header .aem-navheader {
     margin-top: 8px !important;
     display: block !important;
     position: absolute;
