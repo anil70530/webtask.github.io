@@ -198,7 +198,7 @@
           padding-top: 35%;
         }
         #vitiligio-tratment {
-          padding-top: 58%;
+          padding-top: 52%;
         }
 
         img {
@@ -279,7 +279,6 @@
   .aem-card-wrapper .aem-card-image img {
     object-fit: contain;
     width: 158px !important;
-    height: 147px;
   }
   .aem-container .aem-card-wrapper .aem-card-image {
     height: 229px !important;
@@ -307,6 +306,7 @@
   }
   .recommended-card .aem-card-image img {
     object-fit: contain;
+    width: 100% !important;
   }
   .aem-product-teaser .recomended-text {
     display: block !important;
