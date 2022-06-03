@@ -7,13 +7,12 @@
 }
 
 .aem-news--banner .aem-news-content {
-  width: 80%;
+  width: 85%;
   height: 78px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 35px;
-  margin-left: 137px;
+  margin: 35px auto 0 auto;
 }
 
 .aem-news--banner .aem-news-content .aem-title-text {
@@ -58,6 +57,9 @@
   display: flex;
   border: 1px solid #956a53;
   opacity: 1;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .aem-news--banner .aem-news-content .aem-subscribe .form-control-error {
@@ -71,9 +73,12 @@
 }
 
 @media screen and (max-width: 768px) {
+  .aem-news--banner {
+    height: auto !important;
+  }
   .aem-news--banner .aem-news-content {
     width: 100% !important;
-    height: 100% !important;
+    height: 403px !important;
     display: -ms-grid !important;
     display: grid !important;
     margin: 0px !important;

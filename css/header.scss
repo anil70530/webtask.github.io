@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   background-color: #e0e3e8;
-
+  overflow-x: hidden;
   .aem-Offerbanner {
     height: 40px;
     /* UI Properties */
@@ -115,18 +115,21 @@
     margin-top: 31px !important;
     position: relative;
     margin-left: 11px;
-  }
-  .aem-Container .aem-header ul.nav-right li {
-    padding-right: 0px !important;
-  }
-  .aem-Container .aem-header ul.nav-right li.aem-cart {
-    display: flex;
-    span {
-      width: 10px;
-      padding-right: 15px !important;
-      padding-top: 2px;
+    ul{
+      .nav-right li {
+        padding-right: 0px !important;
+        .aem-cart {
+          display: flex;
+          span {
+            width: 10px;
+            padding-right: 15px !important;
+            padding-top: 2px;
+          }
+        }
+      }
     }
   }
+  
   .aem-response {
     position: fixed;
     background: #eef3f4 0% 0% no-repeat padding-box;
@@ -137,24 +140,27 @@
     opacity: 1;
     z-index: 99999;
     transition: opacity 2s linear;
+    .aem-topheader {
+      display: block;
+      position: absolute;
+      bottom: 84px;
+      ul.nav-left {
+        display: block !important;
+        padding-left: 57px !important;
+        li {
+          padding: 11px;
+          cursor: pointer;
+        }
+      }
+      ul.nav-right li.aem-cart {
+        padding-right: 57px !important;
+      }
+    }
   }
 
-  .aem-response .aem-topheader {
-    display: block;
-    position: absolute;
-    bottom: 84px;
-  }
-  .aem-response .aem-topheader ul.nav-left {
-    display: block !important;
-    padding-left: 57px !important;
-  }
-  .aem-response ul.nav-right li.aem-cart {
-    padding-right: 57px !important;
-  }
-  .aem-response .aem-topheader ul.nav-left li {
-    padding: 11px;
-    cursor: pointer;
-  }
+ 
+
+  
   .aem-isActive {
     display: none;
   }
@@ -180,7 +186,7 @@
   .aem-response .aem-baricon {
     display: none !important;
   }
-  .aem-Hheader .aem-logo {
+  .aem-header .aem-logo {
     float: left !important;
     display: block !important;
     color: #293d45;

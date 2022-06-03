@@ -17,13 +17,21 @@
   opacity: 1;
 }
 
+.aem-product-teaser .recomended-text {
+  display: none !important;
+}
+
 .aem-container {
   max-width: 85%;
   margin: 0 auto 111px auto;
 }
 
+.aem-container .card {
+  padding: 0% 0 24px 0;
+}
+
 .aem-container .card .aem-card-wrapper {
-  width: 251px;
+  width: calc(100% - 5%);
   height: 462px;
   display: block;
   position: relative;
@@ -51,9 +59,88 @@
   margin-top: 10px;
 }
 
+.aem-container .card .aem-card-wrapper .aem-card-image.cream {
+  background-image: url(../image/Sooth_home/Cream1-1.png);
+  background-repeat: no-repeat;
+  background-position: 0% 112%;
+  background-size: contain;
+}
+
+.aem-container .card .aem-card-wrapper .aem-card-image.cream:hover {
+  background: #fafafa url(../image/Sooth_home/product-teaser-hover.PNG) 0% 100% no-repeat padding-box;
+  background-size: 1000px 345px;
+}
+
+.aem-container .card .aem-card-wrapper .aem-card-image.vitiligio {
+  background-image: url(../image/Sooth_home/vitiligio.png);
+  background-repeat: no-repeat;
+  background-position: 0% 62%;
+  background-size: contain;
+}
+
+.aem-container .card .aem-card-wrapper .aem-card-image.vitiligio:hover {
+  background: #fafafa url(../image/Sooth_home/product-teaser-hover.PNG) 33% 20% no-repeat padding-box;
+  background-size: 1100px 345px;
+}
+
+.aem-container .card .aem-card-wrapper .aem-card-image.ezcema {
+  background-image: url(../image/Sooth_home/ezcema.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.aem-container .card .aem-card-wrapper .aem-card-image.ezcema:hover {
+  background: #fafafa url(../image/Sooth_home/product-teaser-hover.PNG) 66% 10% no-repeat padding-box;
+  background-size: 1100px 345px;
+}
+
+.aem-container .card .aem-card-wrapper .aem-card-image.sunburn {
+  background-image: url(../image/Sooth_home/suburn1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.aem-container .card .aem-card-wrapper .aem-card-image.sunburn:hover {
+  background: #fafafa url(../image/Sooth_home/product-teaser-hover.PNG) 100% 100% no-repeat padding-box;
+  background-size: 1000px 345px;
+}
+
 .aem-container .card .aem-card-wrapper .aem-card-image img {
-  height: 100%;
   width: 100%;
+}
+
+.aem-container .card .aem-card-wrapper .aem-card-image #image1 {
+  padding-top: 25%;
+}
+
+.aem-container .card .aem-card-wrapper .aem-card-image #image2 {
+  padding-top: 31%;
+}
+
+.aem-container .card .aem-card-wrapper .aem-card-image #image3 {
+  padding-top: 31%;
+}
+
+.aem-container .card .aem-card-wrapper .aem-card-image #image4 {
+  padding-top: 30%;
+}
+
+.aem-container .card .aem-card-wrapper .aem-card-image #image5 {
+  padding-top: 31%;
+}
+
+.aem-container .card .aem-card-wrapper .aem-card-image #image6 {
+  padding-top: 22%;
+}
+
+.aem-container .card .aem-card-wrapper .aem-card-image #image7 {
+  padding-top: 10%;
+}
+
+.aem-container .card .aem-card-wrapper .aem-card-image #image8 {
+  padding-top: 22%;
 }
 
 .aem-container .card .aem-card-wrapper .aem-card-title {
@@ -100,8 +187,106 @@
   font-size: 15px;
 }
 
+.recommended-card {
+  margin: 0 auto 111px auto;
+  max-width: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.recommended-card .card {
+  margin: 0 15px 0 0;
+}
+
+.recommended-card .card .aem-card-wrapper {
+  max-width: 251px;
+  height: 462px;
+  display: block;
+  position: relative;
+}
+
+.recommended-card .card .aem-card-wrapper .aem-card-image {
+  content: "";
+  height: 346px;
+  background-color: #ffffff;
+  margin-top: 10px;
+}
+
+.recommended-card .card .aem-card-wrapper .aem-card-image #psoriasis {
+  padding-top: 25%;
+}
+
+.recommended-card .card .aem-card-wrapper .aem-card-image #sunburn {
+  padding-top: 50%;
+}
+
+.recommended-card .card .aem-card-wrapper .aem-card-image #psoriasis-leaf {
+  padding-top: 35%;
+}
+
+.recommended-card .card .aem-card-wrapper .aem-card-image #vitiligio-tratment {
+  padding-top: 58%;
+}
+
+.recommended-card .card .aem-card-wrapper .aem-card-image img {
+  width: 100%;
+}
+
+.recommended-card .card .aem-card-wrapper .aem-card-image.bg-leves {
+  background-image: url(../image/Sooth_home/annie-spratt-hX_hf2lPpUU-unsplash.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+}
+
+.recommended-card .card .aem-card-wrapper .aem-card-title {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-proxima-nova);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--rangitoto-2e2e22);
+  text-align: left;
+  margin-top: 14px;
+}
+
+.recommended-card .card .aem-card-wrapper .aem-card-short-description {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 12px/16px var(--unnamed-font-family-proxima-nova);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--rangitoto-2e2e22);
+  text-align: left;
+  opacity: 1;
+}
+
+.recommended-card .card .aem-card-wrapper .aem-card-price {
+  line-height: 15px;
+  padding-top: 9px;
+}
+
+.recommended-card .card .aem-card-wrapper .aem-card-price .disc-price {
+  color: var(--cape-palliser-a67744);
+  font-size: var(--unnamed-font-size-12);
+  font-weight: bold;
+}
+
+.recommended-card .card .aem-card-wrapper .aem-card-price .actual-price {
+  font-size: var(--unnamed-font-size-12);
+  font-weight: bold;
+  color: var(--rangitoto-2e2e22);
+}
+
+.recommended-card .card .aem-card-wrapper .aem-add-cart-input {
+  margin-top: 10px;
+}
+
+.recommended-card .card .aem-card-wrapper .aem-add-cart-input .btn-with-icon {
+  font-size: 15px;
+}
+
 @media screen and (max-width: 768px) {
-  .aem-product-teaser {
+  .margin-top {
+    margin-top: 35px !important;
+  }
+  .aem-product-teaser .text-wrapper {
     display: none;
   }
   .aem-container {
@@ -112,19 +297,47 @@
     width: calc(50% - 35px) !important;
     max-width: none;
   }
-  .aem-card-wrapper {
+  .aem-container .aem-card-wrapper {
     width: 152px !important;
     height: 356px !important;
   }
   .aem-card-wrapper .aem-card-image img {
     -o-object-fit: contain;
        object-fit: contain;
+    width: 158px !important;
+    height: 147px;
   }
-  .aem-card-wrapper .aem-card-image {
+  .aem-container .aem-card-wrapper .aem-card-image {
     height: 229px !important;
   }
   .btn-with-icon {
+    min-width: 90% !important;
+  }
+  .recommended-card {
+    overflow-x: scroll !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 521.5px;
+    margin-bottom: 0 !important;
+  }
+  .recommended-card .card .aem-card-wrapper {
+    width: 251px !important;
+    height: 462px !important;
+  }
+  .recommended-card .btn-with-icon {
     min-width: 100% !important;
+  }
+  .recommended-card .aem-card-image {
+    max-width: 251px !important;
+    height: 346px !important;
+  }
+  .recommended-card .aem-card-image img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .aem-product-teaser .recomended-text {
+    display: block !important;
   }
 }
 /*# sourceMappingURL=product-teaser.css.map */

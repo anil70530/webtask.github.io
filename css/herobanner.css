@@ -9,7 +9,7 @@
 }
 
 .aem-hero-banner .aem-container {
-  width: 85%;
+  width: 80%;
   display: block;
   margin: 0 auto;
 }
@@ -103,7 +103,7 @@
   .aem-container {
     width: 100% !important;
   }
-  .aem-hero-banner .aem-container .aem-column-wrapper {
+  .aem-container .aem-column-wrapper {
     width: 100% !important;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -113,28 +113,28 @@
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
-  .aem-column-wrapper .aem-content-wrapper {
+  .aem-container .aem-column-wrapper .aem-content-wrapper {
     margin-top: 15% !important;
     width: 100% !important;
     font-size: 1.2rem;
     background: #E2E6E9;
   }
-  .aem-column-wrapper .aem-content-wrapper .aem-banner-title {
+  .aem-container .aem-column-wrapper .aem-content-wrapper .aem-banner-title {
     background: #E2E6E9;
     padding: 10px;
   }
-  .aem-column-wrapper .aem-content-wrapper .aem-new {
+  .aem-container .aem-column-wrapper .aem-content-wrapper .aem-new {
     display: none !important;
   }
-  .aem-column-wrapper .aem-content-wrapper .aem-soap-products {
+  .aem-container .aem-column-wrapper .aem-content-wrapper .aem-soap-products {
     text-align: center;
     padding: 18px 0 21px 0 !important;
   }
-  .aem-column-wrapper .aem-img-wrapper {
+  .aem-container .aem-column-wrapper .aem-img-wrapper {
     width: 290px !important;
     margin: 0 auto !important;
   }
-  .aem-column-wrapper .aem-img-wrapper img {
+  .aem-container .aem-column-wrapper .aem-img-wrapper img {
     width: 100% !important;
     margin-left: 0 !important;
   }

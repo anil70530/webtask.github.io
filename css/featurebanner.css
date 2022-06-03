@@ -73,18 +73,18 @@
     display: flex !important;
     position: relative;
   }
-  .aem-feature-content {
-    width: auto !important;
-    height: auto !important;
-    margin-top: 91px !important;
+  .aem-feature-banner .aem-feature-content {
+    width: auto;
+    height: auto;
+    margin-top: 91px;
   }
-  .aem-feature-content ul {
-    display: -ms-grid !important;
-    display: grid !important;
+  .aem-feature-banner .aem-feature-content ul {
+    display: -ms-grid;
+    display: grid;
   }
-  .aem-feature-content ul li {
-    margin-bottom: 76px !important;
-    height: 100% !important;
+  .aem-feature-banner .aem-feature-content ul li {
+    margin-bottom: 76px;
+    height: 100%;
     display: block;
     width: 100%;
     text-align: center;

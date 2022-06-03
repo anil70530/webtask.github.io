@@ -5,11 +5,11 @@
   opacity: 1;
   height: 148px;
   .aem-news-content {
-    width: 80%;
+    width: 85%;
     height: 78px;
     display: flex;
-    margin-top: 35px;
-    margin-left: 137px;
+    // margin-left: 137px;
+    margin: 35px auto 0 auto;
     .aem-title-text {
         content:"";
       font: var(--unnamed-font-style-normal) normal
@@ -54,6 +54,7 @@
       display: flex;
       border: 1px solid #956a53;
       opacity: 1;
+      justify-content: space-between;
       .form-control-error {
         border: none !important;
         width: 275px;
@@ -66,10 +67,12 @@
   }
 }
 @media screen and (max-width: 768px) {
-    
+  .aem-news--banner{
+    height: auto !important;
+  }
     .aem-news--banner .aem-news-content{
         width: 100% !important;
-        height: 100% !important;
+        height: 403px !important;
         display: grid !important;
         margin: 0px !important;
 

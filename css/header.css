@@ -2,6 +2,7 @@
   position: relative;
   width: 100%;
   background-color: #e0e3e8;
+  overflow-x: hidden;
 }
 
 .aem-Container .aem-Offerbanner {
@@ -129,15 +130,15 @@
     position: relative;
     margin-left: 11px;
   }
-  .aem-Container .aem-header ul.nav-right li {
+  .aem-header ul .nav-right li {
     padding-right: 0px !important;
   }
-  .aem-Container .aem-header ul.nav-right li.aem-cart {
+  .aem-header ul .nav-right li .aem-cart {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  .aem-Container .aem-header ul.nav-right li.aem-cart span {
+  .aem-header ul .nav-right li .aem-cart span {
     width: 10px;
     padding-right: 15px !important;
     padding-top: 2px;
@@ -163,12 +164,12 @@
     display: block !important;
     padding-left: 57px !important;
   }
-  .aem-response ul.nav-right li.aem-cart {
-    padding-right: 57px !important;
-  }
   .aem-response .aem-topheader ul.nav-left li {
     padding: 11px;
     cursor: pointer;
+  }
+  .aem-response .aem-topheader ul.nav-right li.aem-cart {
+    padding-right: 57px !important;
   }
   .aem-isActive {
     display: none;
@@ -194,7 +195,7 @@
   .aem-response .aem-baricon {
     display: none !important;
   }
-  .aem-Hheader .aem-logo {
+  .aem-header .aem-logo {
     float: left !important;
     display: block !important;
     color: #293d45;

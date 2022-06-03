@@ -9,6 +9,8 @@
 @import url(./input.css);
 @import url(./imagetiles.css);
 @import url(./product-teaser.css);
+@import url(./teaser.css);
+@import url(./footer.css);
 @import url("https://use.typekit.net/ywo2tgu.css");
 @import url(./font/Somatic-Rounded.otf);
 * {
@@ -19,4 +21,17 @@
 }
 .bg-primary{
   background-color: #eef3f4;
+}
+.bg-alabasterr{
+  background: var(--alabasterr-f7f7f7) 0% 0% no-repeat padding-box;
+}
+
+.mt-35{
+  margin-top: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  body{
+    overflow-x: hidden !important;
+  }
 }

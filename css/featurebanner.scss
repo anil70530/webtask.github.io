@@ -60,20 +60,23 @@
         height: auto!important;
         display: flex !important;
         position: relative;
-    }
+    
     .aem-feature-content{
-        width: auto!important;
-        height: auto !important;
-        margin-top: 91px !important;
+        width: auto;
+        height: auto;
+        margin-top: 91px;
+        ul{
+          display: grid ;
+          li{
+            margin-bottom: 76px;
+            height: 100%;
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+        }
     }
-    .aem-feature-content ul{
-        display: grid !important;
-    }
-    .aem-feature-content ul li{
-        margin-bottom: 76px !important;
-        height: 100%!important;
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
+  }
+  
+   
 }
