@@ -55,28 +55,3 @@
     }
   }
 }
-@media screen and (max-width: 768px) {
-    .aem-feature-banner{
-        height: auto!important;
-        display: flex !important;
-        position: relative;
-    
-    .aem-feature-content{
-        width: auto;
-        height: auto;
-        margin-top: 91px;
-        ul{
-          display: grid ;
-          li{
-            margin-bottom: 76px;
-            height: 100%;
-            display: block;
-            width: 100%;
-            text-align: center;
-        }
-        }
-    }
-  }
-  
-   
-}

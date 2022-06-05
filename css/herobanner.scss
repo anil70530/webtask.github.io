@@ -80,57 +80,5 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .aem-hero-banner {
-    width: 100% !important;
-    background: #e0e3e8 url(../image/Sooth_home/updated_Header.png) no-repeat;
-    background-position: 75% -20%;
-    background-size: 800px;
-    background-origin: padding-box;
-    height: auto;
-    
-  }
-  .aem-container {
-    width: 100% !important;
-    .aem-column-wrapper {
-      width: 100% !important;
-      display: flex;
-      flex-direction: column-reverse;
-      .aem-content-wrapper {
-        margin-top: 15% !important;
-        width: 100% !important;
-        font-size: 1.2rem;
-        background: #E2E6E9;
-        .aem-banner-title{
-          background: #E2E6E9;
-          padding: 10px;
-        }
-        .aem-new{
-          display: none !important;
-        }
-        .aem-soap-products{
-          text-align: center;
-          padding: 18px 0 21px 0 !important;
-       }
-      }
-      .aem-img-wrapper {
-        width: 290px !important;
-        margin: 0 auto !important;
-        img {
-          width: 100% !important;
-          margin-left: 0 !important;
-        }
-      }
-    }
-  }
-   
- 
-  
-
-  
-
- 
- 
-}
 
 /* End Hero banner*/

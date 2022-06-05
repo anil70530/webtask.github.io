@@ -13,6 +13,12 @@
 @import url(./footer.css);
 @import url("https://use.typekit.net/ywo2tgu.css");
 @import url(./font/Somatic-Rounded.otf);
+@import url(./portable/tablet.css);
+@import url(./portable/mobile.css);
+@import url(./portable/desktop-lg.css);
+@import url(./portable/desktop-md.css);
+@import url(./portable/desktop-xl.css);
+@import url(./portable/desktop.css);
 * {
   padding: 0px;
   margin: 0px;

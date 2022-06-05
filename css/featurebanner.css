@@ -64,30 +64,4 @@
   opacity: 1;
   margin-top: 12px;
 }
-
-@media screen and (max-width: 768px) {
-  .aem-feature-banner {
-    height: auto !important;
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex !important;
-    position: relative;
-  }
-  .aem-feature-banner .aem-feature-content {
-    width: auto;
-    height: auto;
-    margin-top: 91px;
-  }
-  .aem-feature-banner .aem-feature-content ul {
-    display: -ms-grid;
-    display: grid;
-  }
-  .aem-feature-banner .aem-feature-content ul li {
-    margin-bottom: 76px;
-    height: 100%;
-    display: block;
-    width: 100%;
-    text-align: center;
-  }
-}
 /*# sourceMappingURL=featurebanner.css.map */

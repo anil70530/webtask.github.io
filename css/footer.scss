@@ -47,6 +47,9 @@ footer {
           .btn-subscribe-standard {
             background-color: transparent;
             border-left: 1px solid var(--white-ffffff);
+            border-bottom: none;
+            border-right: none;
+            border-top:none;
           }
         }
       }
@@ -158,47 +161,3 @@ footer {
   }
 }
 
-@media (min-width:340px) and (max-width: 768px) {
-  footer {
-    height: 991px;
-    .aem-footer-content {
-      margin-top: 84px;
-      .aem-footer-column {
-        display: flex;
-        flex-direction: column-reverse;
-        height: auto;
-        .aem-footer-subscribe {
-          width: 100%;
-          .aem-footer-input-subsriber {
-            width: 100%;
-            display: flex;
-          }
-        }
-        .aem-footer-navigation {
-          width: 100% !important;
-          margin-bottom: 60px;
-          .aem-child-column {
-            width: 100%;
-            display: block;
-            .aem-child-navigation {
-              float: left;
-              width: 50%;
-              margin-top: 13px 
-            }
-          }
-        }
-      }
-      .aem-footer-column-bottom {
-        display: flex;
-        flex-direction: column;
-        .aem-footer-copyright {
-          width: 100% !important;
-        }
-        .aem-footer-socialmedia {
-          position: relative;
-          margin-top: 52px;
-        }
-      }
-    }
-  }
-}

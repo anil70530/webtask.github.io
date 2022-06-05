@@ -66,6 +66,9 @@ footer .aem-footer-content .aem-footer-column .aem-footer-subscribe .aem-footer-
 footer .aem-footer-content .aem-footer-column .aem-footer-subscribe .aem-footer-input-subsriber .btn-subscribe-standard {
   background-color: transparent;
   border-left: 1px solid var(--white-ffffff);
+  border-bottom: none;
+  border-right: none;
+  border-top: none;
 }
 
 footer .aem-footer-content .aem-footer-column .aem-footer-navigation {
@@ -193,62 +196,5 @@ footer .aem-footer-content .aem-footer-column-bottom .aem-footer-socialmedia .ae
   background-color: #ffffff;
   -webkit-mask-image: url("../image/social/logo-youtube.svg");
           mask-image: url("../image/social/logo-youtube.svg");
-}
-
-@media (min-width: 340px) and (max-width: 768px) {
-  footer {
-    height: 991px;
-  }
-  footer .aem-footer-content {
-    margin-top: 84px;
-  }
-  footer .aem-footer-content .aem-footer-column {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-    height: auto;
-  }
-  footer .aem-footer-content .aem-footer-column .aem-footer-subscribe {
-    width: 100%;
-  }
-  footer .aem-footer-content .aem-footer-column .aem-footer-subscribe .aem-footer-input-subsriber {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  footer .aem-footer-content .aem-footer-column .aem-footer-navigation {
-    width: 100% !important;
-    margin-bottom: 60px;
-  }
-  footer .aem-footer-content .aem-footer-column .aem-footer-navigation .aem-child-column {
-    width: 100%;
-    display: block;
-  }
-  footer .aem-footer-content .aem-footer-column .aem-footer-navigation .aem-child-column .aem-child-navigation {
-    float: left;
-    width: 50%;
-    margin-top: 13px;
-  }
-  footer .aem-footer-content .aem-footer-column-bottom {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  footer .aem-footer-content .aem-footer-column-bottom .aem-footer-copyright {
-    width: 100% !important;
-  }
-  footer .aem-footer-content .aem-footer-column-bottom .aem-footer-socialmedia {
-    position: relative;
-    margin-top: 52px;
-  }
 }
 /*# sourceMappingURL=footer.css.map */
