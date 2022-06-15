@@ -5,7 +5,8 @@
         display: none;
       }
       height: 25px;
-      width: 332px;
+      min-width: 332px;
+      max-width: 90%;
       margin-top: 31px;
       position: relative;
       margin-left: 11px;
@@ -37,6 +38,12 @@
           var(--unnamed-font-family-proxima-nova);
         margin-top: 0px;
         color: #293d45;
+        img{
+          &.mobile-nav-icon{
+              height: 100%;
+          }
+        }
+       
       }
       .aem-logo {
         float: left;
@@ -45,10 +52,10 @@
         font-size: 25px;
         font-weight: bold;
         opacity: 1;
-        line-height: 26px;
+        line-height: 17px;
       }
       .aem-navheader {
-        margin-top: 8px;
+        margin-top: 2px;
         display: block;
         position: absolute;
         right: 0;

@@ -1,7 +1,8 @@
 @media screen and (max-width: 768px) {
   .tablet .aem-header {
     height: 25px;
-    width: 332px;
+    min-width: 332px;
+    max-width: 90%;
     margin-top: 31px;
     position: relative;
     margin-left: 11px;
@@ -37,6 +38,9 @@
     margin-top: 0px;
     color: #293d45;
   }
+  .tablet .aem-header .aem-baricon img.mobile-nav-icon {
+    height: 100%;
+  }
   .tablet .aem-header .aem-logo {
     float: left;
     display: block;
@@ -44,10 +48,10 @@
     font-size: 25px;
     font-weight: bold;
     opacity: 1;
-    line-height: 26px;
+    line-height: 17px;
   }
   .tablet .aem-header .aem-navheader {
-    margin-top: 8px;
+    margin-top: 2px;
     display: block;
     position: absolute;
     right: 0;
