@@ -33,6 +33,9 @@ footer {
           height: 40px;
           display: flex;
           justify-content: space-between;
+          label{
+            display: none;
+          }
 
           input {
             height: 38px;
@@ -150,25 +153,25 @@ footer {
           cursor: pointer;
           &.facebook {
             background-color: $white-ffffff;
-            mask-image: url("../../../image/social/logo-facebook.svg");
-            -webkit-mask-image: url("../../../image/social/logo-facebook.svg");
+            mask-image: url("../../image/social/logo-facebook.svg");
+            -webkit-mask-image: url("../../image/social/logo-facebook.svg");
           }
           &.twitter {
             background-color: $white-ffffff;
-            mask-image: url("../../../image/social/logo-twitter.svg");
-            -webkit-mask-image:url("../../../image/social/logo-twitter.svg");
+            mask-image: url("../../image/social/logo-twitter.svg");
+            -webkit-mask-image:url("../../image/social/logo-twitter.svg");
           }
           &.instagram {
             background-color: $white-ffffff;
-            mask-image: url("../../../image/social/logo-instagram.svg");
-            -webkit-mask-image: url("../../../image/social/logo-instagram.svg");
+            mask-image: url("../../image/social/logo-instagram.svg");
+            -webkit-mask-image: url("../../image/social/logo-instagram.svg");
 
  
           }
           &.youtube {
             background-color: $white-ffffff;
-            mask-image: url("../../../image/social/logo-youtube.svg");
-            -webkit-mask-image:url("../../../image/social/logo-youtube.svg");
+            mask-image: url("../../image/social/logo-youtube.svg");
+            -webkit-mask-image:url("../../image/social/logo-youtube.svg");
           }
         }
       }

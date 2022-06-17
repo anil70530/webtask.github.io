@@ -36,9 +36,6 @@
       letter-spacing: $character-spacing-0;
       color: $oxford-blue-354e57;
       text-align: left;
-      font: normal normal normal 16px/20px Proxima Nova;
-      letter-spacing: 0px;
-      color: #354e57;
       opacity: 1;
       margin-top: 19px;
       width: 304px;
@@ -55,6 +52,9 @@
       border: 1px solid #956a53;
       opacity: 1;
       justify-content: space-between;
+      label{
+        display: none;
+      }
       .form-control-error {
         border: none !important;
         width: 275px;
