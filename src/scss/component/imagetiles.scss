@@ -1,0 +1,89 @@
+@import"../globel/variable.scss";
+
+@mixin background($num1, $num2) {
+    background: $alabasterr-f7f7f7 url(../../../image/Sooth_home/138-1380767_transparent-ingredients-png-pizza-ingredients-png-png-download.png);
+    background-repeat: no-repeat;
+    background-position: $num1 $num2;
+    background-origin:content-box;
+};
+
+.img-tiles {
+  background: $alabasterr-f7f7f7 0% 0% no-repeat padding-box;
+  .aem-product-tiles {
+    max-width: 912px;
+    position: relative;
+    margin: 0 auto;
+    .aem-header-title {
+       margin-top:110.5px;
+      h3 {
+        font: $font-style-normal normal
+          $font-weight-bold $font-size-28 $font-family-proxima-nova;
+        letter-spacing: $character-spacing-0;
+        color: $oxford-blue-354e57;
+        text-align: center;
+        opacity: 1;
+      }
+      p {
+        font: $font-style-normal normal
+          $font-weight-normal 16px 
+           $font-family-proxima-nova;
+        letter-spacing: $character-spacing-0;
+        color: $oxford-blue-354e57;
+        text-align: center;
+        opacity: 1;
+      }
+    }
+  }
+    .tiles-image {
+      margin: 47.82px auto 191px auto;;
+      .aem-tiles-card {
+        width: 200px;
+        margin: 30px auto 30px auto;;
+        .tiles-card {
+          width: 210px;
+          height: 222px;
+          display: block;
+        
+        }
+        .image-1 {
+          @include background(2%, 60%);
+        }
+        .image-2 {
+          @include background(98%, 58%);
+        }
+        .image-3 {
+          @include background(98%, 0%);
+        }
+        .image-4 {
+          @include background(8%, 91%);
+        }
+        .image-5 {
+          @include background(98%, 91%);
+        }
+        .image-6 {
+          @include background(11%,0%);
+        }
+        .tiles-name {
+          font: $font-style-normal normal
+            $font-weight-bold $font-size-14
+            $font-family-proxima-nova;
+          letter-spacing: $character-spacing-0;
+          
+          color: $oxford-blue-354e57;
+          text-align: center;
+          opacity: 1;
+          padding-bottom: 19px;
+        }
+        .tiles-description {
+          font: $font-style-normal normal
+            $font-weight-normal 12px/16px
+            $font-family-proxima-nova;
+          letter-spacing: $character-spacing-0;
+          color: $rangitoto-2e2e22;
+          text-align: center;
+          opacity: 1;
+        }
+      }
+    }
+  
+}

@@ -1,0 +1,22 @@
+@import "./variable.scss";
+.form-control {
+  background: $white-ffffff 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #bacad1;
+  border-radius: 3px;
+  opacity: 1;
+  &:disabled {
+    border: 1px solid $rangitoto-2e2e22;
+    border: 1px solid #2e2e22;
+    border-radius: 3px;
+    opacity: 1;
+  }
+}
+
+.form-control-error {
+    border: 1px solid $punch-de3b35;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    border: 1px solid #DE3B35;
+    border-radius: 3px;
+    opacity: 1;
+}

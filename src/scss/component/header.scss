@@ -1,0 +1,120 @@
+@import "../globel/variable.scss";
+.aem-Container {
+  position: relative;
+  width: 100%;
+  background-color: #e0e3e8;
+  overflow-x: hidden;
+  .aem-Offerbanner {
+    height: 40px;
+    /* UI Properties */
+    background: $cape-palliser-a67744 0% 0% no-repeat padding-box;
+    opacity: 1;
+    p {
+      font: $font-style-normal normal medium 16px/20px $font-family-proxima-nova;
+      letter-spacing: $character-spacing-0;
+      color: $beige-f7f5e6;
+      text-align: center;
+
+      letter-spacing: 0px;
+      opacity: 1;
+      line-height: 35px;
+    }
+  }
+  .aem-header {
+    text-align: center;
+    height: 84px;
+    max-width: 1216px;
+    margin: 44px auto 0px auto;
+    .aem-baricon {
+      display: none;
+    }
+    .aem-close {
+      display: none;
+    }
+    ul {
+      list-style: none;
+
+      &.nav-left {
+        display: flex;
+        li {
+          font: $font-style-normal normal $font-weight-bold 12px/14px
+            $font-family-proxima-nova;
+          color: $oxford-blue-354e57;
+          text-align: left;
+          letter-spacing: 0.6px;
+          text-transform: uppercase;
+          opacity: 1;
+          padding-left: 47px;
+          a {
+            text-decoration: none;
+            color: $oxford-blue-354e57;
+          }
+        }
+      }
+      &.nav-right {
+        display: flex;
+        float: right;
+        li {
+          font: $font-style-normal normal $font-weight-bold 12px/14px
+            $font-family-proxima-nova;
+          color: $oxford-blue-354e57;
+          text-align: left;
+          letter-spacing: 0.6px;
+          text-transform: uppercase;
+          opacity: 1;
+          padding-right: 46px;
+          display: flex;
+          a {
+            text-decoration: none;
+            color: $oxford-blue-354e57;
+          }
+        }
+        span {
+          width: 10px;
+          padding-right: 39.8px;
+        }
+      }
+    }
+    .aem-logo {
+      text-align: left;
+      letter-spacing: 1.6px;
+      color: #293d45;
+      opacity: 1;
+      text-align: center;
+      font-size: $font-size-32;
+      font-family: $font-family-somatic-sounded;
+    }
+    .aem-topheader {
+      margin-top: 14px;
+    }
+    .aem-navheader {
+      margin-top: 14px;
+    }
+    .aem-navigation {
+      ul {
+        list-style: none;
+        margin-top: 25px;
+        li {
+          display: inline-flex;
+          padding-left: 63px;
+          font: $font-style-normal normal $font-weight-bold 16px/20px
+            $font-family-proxima-nova;
+          height: 30px;
+          text-align: left;
+          letter-spacing: 0.8px;
+          opacity: 1;
+          a {
+            text-decoration: none;
+            color: $oxford-blue-354e57;
+            padding: 5px;
+            &:hover {
+              border-bottom: 2px solid $cape-palliser-a67744;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* phone breakpoint */

@@ -1,0 +1,133 @@
+@import "./variable.scss";
+.btn-new-sm {
+  background: #fff;
+  padding: 5px;
+  border: none;
+}
+.btn {
+  width: 173px;
+  height: 37px;
+}
+.btn-default {
+  width: 176px;
+  height: 40px;
+  display: block;
+}
+.btn-default-standard {
+  cursor: pointer;
+  border: 1px solid $white-ffffff;
+  font: $font-style-normal normal $font-weight-bold $font-size-14 $font-family-proxima-nova;
+  letter-spacing: $character-spacing-0;
+  color: $beige-f7f5e6;
+  text-align: left;
+  font-size: 14px;
+  opacity: 1;
+  &:hover {
+    color: #000000;
+    background-color: $white-ffffff;
+  }
+}
+
+.btn-subscribe {
+  width: 112px;
+  height: 40px;
+}
+.btn-cart {
+  width: 251px;
+  height: 35px;
+}
+.btn-standard {
+  border: 1px solid $oxford-blue-354e57;
+  border: 1px solid #354e57;
+  opacity: 1;
+  &:hover {
+    background: $white-ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid $oxford-blue-354e57;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #354e57;
+    opacity: 1;
+  }
+  &:disabled {
+    border: 1px solid $oxford-blue-354e57;
+    background: #e4ecef 0% 0% no-repeat padding-box;
+    border: 1px solid #354e57;
+    opacity: 1;
+  }
+}
+
+.btn-subscribe-standard {
+  font: $font-style-normal normal $font-weight-bold $font-size-14 $font-family-proxima-nova;
+  letter-spacing: $character-spacing-0;
+  color: $white-ffffff;
+  text-align: center;
+  font: normal normal bold 14px/17px Proxima Nova;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  background: $cape-palliser-a67744 0% 0% no-repeat padding-box;
+  background: #a67744 0% 0% no-repeat padding-box;
+  border: 1px solid #956a53;
+  opacity: 1;
+  &:hover {
+    background: #9a6b39 0% 0% no-repeat padding-box;
+    border: 1px solid #956a53;
+    opacity: 1;
+  }
+  &:disabled {
+    background: $white-ffffff 0% 0% no-repeat padding-box;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #956a53;
+    opacity: 1;
+  }
+}
+
+.btn-revieworder-standard {
+  background: $oxford-blue-354e57 0% 0% no-repeat padding-box;
+  background: #354e57 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+  opacity: 1;
+  &:hover {
+    font: $font-style-normal normal $font-weight-bold $font-size-14 $font-family-proxima-nova;
+    letter-spacing: $character-spacing-0;
+    color: $white-ffffff;
+    text-align: center;
+    opacity: 1;
+  }
+  &:disabled {
+    font: $font-style-normal normal $font-weight-bold $font-size-14  $font-family-proxima-nova;
+    letter-spacing: $character-spacing-0;
+    color: $oxford-blue-354e57;
+    text-align: center;
+    opacity: 1;
+  }
+}
+
+.btn-with-icon {
+  position: relative;
+  display: inline-block;
+  font-size: $font-size-12;
+  color: $rangitoto-2e2e22;
+  line-height: 15px;
+  min-width: calc(100% - 0px);
+  text-align: center;
+  border: 1px solid $oxford-blue-354e57;
+  cursor: pointer;
+  transition: all ease-out 0.3s;
+  span {
+    position: relative;
+    line-height: 35px;
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 13px;
+      height: 10px;
+      right: 81px;
+      top: 2px;
+      background: url(../../image/cart-outline.svg) no-repeat;
+    }
+  }
+  &:hover {
+    background-color: #ffffff;
+  }
+}

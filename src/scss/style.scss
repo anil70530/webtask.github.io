@@ -1,0 +1,28 @@
+// @import "./aem-grid/aem-grid.scss";
+@import "./globel/variable.scss";
+@import "https://use.typekit.net/ywo2tgu.css";//fonts
+@import url("./font/Somatic-Rounded.otf");//fonts
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: $font-family-proxima-nova;
+}
+
+.bg-alabasterr{
+  background-color: $alabasterr-f7f7f7;
+}
+main{
+  background-color: #eef3f4;
+  overflow: hidden;
+}
+.mt-35{
+  margin-top: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  body{
+    overflow-x: hidden !important;
+  }
+}

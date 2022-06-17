@@ -1,0 +1,58 @@
+@import"../globel/variable.scss";
+.aem-feature-banner {
+  height: 234px;
+  background: $athens-gray-eef2f4 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  width: 100%;
+  .aem-feature-content {
+    width: 776px;
+    height: 117px;
+    margin: 0 auto;
+    margin-top: 56.5px;
+    ul {
+      width: 100%;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      li {
+        height: 40px;
+        width: 146px;
+        display: block;
+        .icon {
+          opacity: 1;
+          height: 27px;
+          width: 27px;
+          margin: 0 auto;
+        }
+        .discription {
+          font: $font-style-normal normal 600 16px
+            $font-family-proxima-nova;
+          letter-spacing: $character-spacing-0;
+          color: $oxford-blue-354e57;
+          text-align: center;
+          letter-spacing: 0px;
+          color: #354e57;
+          opacity: 1;
+          margin-top: 22.13px;
+        }
+        .link-store-locator {
+          font: $font-style-normal normal
+            $font-weight-normal  12px/15px
+            $font-family-proxima-nova;
+          letter-spacing: $character-spacing-0;
+          color: $oxford-blue-354e57;
+          text-align: center;
+          text-decoration: underline;
+          margin-top: 12px;
+          a{
+            text-decoration: none;
+            color: $oxford-blue-354e57;
+           
+          }
+
+        }
+      }
+    }
+  }
+}

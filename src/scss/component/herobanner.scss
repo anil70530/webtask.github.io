@@ -1,0 +1,111 @@
+/* Hero banner*/
+@import "../globel/variable.scss";
+.aem-hero-banner {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: 632px;
+  
+  .aem-bg-img {
+    position: absolute;
+    right: -46%;
+    top: -88px;
+    width: 1440px;
+   
+    img {
+      width: 100%;
+    }
+  }
+  .aem-container {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+
+    .aem-column-wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+      .aem-content-wrapper {
+        width: 50%;
+        max-width: 441px;
+        position: relative;
+        z-index: 1;
+        .heading-1 {
+          font-size: $font-size-48;
+          line-height: $line-spacing-58;
+          color: $oxford-blue-354e57;
+        }
+        .aem-description {
+          font-size: $font-size-16;
+          line-height: $line-spacing-24;
+          margin-bottom: 28px;
+          color: $oxford-blue-354e57;
+          text-align: left;
+          opacity: 1;
+        }
+        .aem-soap-products {
+          padding-top: 28px;
+        }
+      }
+
+      .aem-img-wrapper {
+        position: relative;
+        width: 50%;
+
+        .aem-inner-wrapper {
+          display: grid;
+          padding-top: 32px;
+
+          img {
+            width: 492px;
+            z-index: 1;
+          }
+          &::before {
+            content: "";
+            position: absolute;
+            top: 0px;
+            right: 197px;
+            width: 100%;
+            height: 100%;
+            background: url(../../image/Sooth_home/plant.png) no-repeat;
+            @media screen and (max-width: 768px) {
+              top: 0px !important;
+              right: 96px !important;
+              background-position: center;
+              background-size: contain;
+            }
+            @media screen and (max-width: 320px) {
+              top: 0px !important;
+              right: 96px !important;
+              background-position: center;
+              background-size: contain;
+            }
+          }
+          &::after {
+            content: "";
+            position: absolute;
+            bottom: 32%;
+            right: 22%;
+            min-width: 200px;
+            height: 70%;
+            background: url(../../image/Sooth_home/plant-1.png) center no-repeat;
+            @media screen and (max-width: 768px) {
+              bottom: 30%;
+              right: 0;
+              background-size: 100%;
+            }
+            @media screen and (max-width: 320px) {
+              bottom: 28%;
+              right: 0;
+              background-size: 63%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* End Hero banner*/

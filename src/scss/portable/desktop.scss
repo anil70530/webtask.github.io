@@ -1,0 +1,32 @@
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  //Header
+    //Offer Banner
+    .dasktop{
+      .aem-hero-banner{
+          overflow: hidden;
+        .aem-bg-img {
+          position: absolute;
+          right: -94%;
+          top: -108px;
+          height: auto;
+         
+          img {
+            width: 100%;
+          }
+        }
+        .aem-inner-wrapper{
+          &::after {
+             right: -6% !important;
+          }
+        }
+      }
+    }
+    //Banner
+    //Secondary Banner
+    //Feature Banner
+    //News letter
+    //Image tiles
+    //Product traser
+    //Traser
+    //Footer
+}

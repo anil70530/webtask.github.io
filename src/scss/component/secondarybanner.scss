@@ -1,0 +1,27 @@
+@import "../globel/variable.scss";
+.aem-secondary-banner{
+    border: 1px solid $como-547665;
+    opacity: 1;
+    background-color: #eef3f4;
+    height: 141px;
+    .aem-content{
+        margin:43px auto;
+        max-width:364px;
+        text-align: center;
+        p{
+            font: $font-style-normal normal $font-weight-normal 16px/20px $font-family-proxima-nova;
+            letter-spacing: $character-spacing-0;
+            color: $oxford-blue-354e57;
+            text-align: center;
+           
+            letter-spacing: 0px;
+            color: #354E57;
+            opacity: 1;
+        }
+        h4{
+            color: $oxford-blue-354e57;
+            font-size: $font-size-28;
+        }
+    }
+}
+

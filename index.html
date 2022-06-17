@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AEM 1st Assignment</title>
+    <link rel="stylesheet" href="./dist/css/styles.css" />
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+  </head>
+  <body id="compatible-device">
+    <div class="aem-Grid aem-Grid--default--12">
+      <div class="aem-GridColumn aem-GridColumn--default--12">
+        <div class="aem-Container">
+          <!-- Offer banner Component -->
+          <section class="aem-Offerbanner">
+            <p>Free Standard Shipping on orders over $99.99</p>
+          </section>
+          <!-- end -->
+          <!-- Header banner component -->
+          <div class="aem-header">
+            <header class="aem-Grid aem-Grid--default--12">
+              <div
+                class="aem-GridColumn aem-GridColumn--default--2 aem-baricon aem-baricon-response"
+                onclick="onclickHandler()"
+              >
+                <img
+                  src="./image/menu-icon.svg"
+                  name="menu-outline"
+                  class="mobile-nav-icon"
+                  alt="menu-icon"
+                />
+              </div>
+              
+                <div class="aem-GridColumn aem-GridColumn--default--4">
+                  <div class="aem-topheader">
+                  <ul class="nav-left">
+                    <li><a href="#">About</a> </li>
+                    <li><a href="#">Consulation</a></li>
+                  </ul>
+                </div>
+               </div>
+             
+    
+              <div class="aem-GridColumn aem-GridColumn--default--4 aem-logo">
+                  <span> sooth </span>
+              </div>
+              <div class="aem-GridColumn aem-GridColumn--default--4 aem-navheader">
+                <div class="aem-close" onclick="closeHandler()">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="ionicon"
+                    viewBox="0 0 512 512"
+                  >
+                    <title>Close</title>
+                    <path
+                      fill="none"
+                      stroke="#354E57"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="32"
+                      d="M368 368L144 144M368 144L144 368"
+                    />
+                  </svg>
+                </div>
+                <nav id="navbar">
+                  <ul class="nav-right">
+                    <li class="aem-cart">
+                      <span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="ionicon"
+                          viewBox="0 0 512 512"
+                        >
+                          <title>Search</title>
+                          <path
+                            d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-miterlimit="10"
+                            stroke-width="74"
+                          ></path>
+                          <path
+                            fill="#354E57"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-miterlimit="10"
+                            stroke-width="74"
+                            d="M338.29 338.29L448 448"
+                          ></path>
+                        </svg>
+                      </span>
+                      Cart
+                    </li>
+                    <li class="aem-login"><a href="#">Login</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div
+                id="navigation"
+                class="aem-GridColumn aem-GridColumn--default--12"
+              >
+                <nav class="aem-navigation">
+                  <ul>
+                    <li><a href="#">Acne</a></li>
+                    <li><a href="#">Sun</a></li>
+                    <li><a href="#">Ezcema</a></li>
+                    <li><a href="#">Psoriasis</a></li>
+                    <li><a href="#">Vitilligia</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </header>
+          </div>
+         
+          <!-- Header end -->
+        </div>
+      </div>
+     
+
+      <main class="aem-GridColumn aem-GridColumn--default--12">
+        <!-- Hero banner -->
+        <div class="aem-GridColumn aem-GridColumn--default--12">
+          <section class="aem-hero-banner">
+            <div class="aem-container">
+              <div class="aem-column-wrapper">
+                <div class="aem-content-wrapper">
+                  <div class="aem-banner-title">
+                    <div class="aem-new">
+                      <button class="btn-new-sm">New!</button>
+                    </div>
+                    <h1 class="heading-1">
+                      All Natural <br />Skin Remedies.
+                    </h1>
+
+                    <p class="aem-description">
+                      A healthier you from the inside out. We’ve sourced the
+                      cleanest ingredients to create a line of clean skin care
+                      treatments that leave you feeling your best
+                    </p>
+                  </div>
+                  <div class="aem-soap-products">
+                    <button class="btn btn-standard headline-6-—-14pt">
+                      Shop products
+                    </button>
+                  </div>
+                </div>
+                <div class="aem-img-wrapper">
+                  <div class="aem-bg-img">
+                    <img src="./image/Sooth_home/updated_Header.png" alt="">
+                  </div>
+                  <div class="aem-inner-wrapper">
+                    <img
+                      src="./image/Sooth_home/ezcema-1@2x.png"
+                      title="Ezcema"
+                      alt="ezcema"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!-- End Hero banner -->
+        <!--Secondary banner-->
+        <div class="aem-GridColumn aem-GridColumn--default--12">
+          <div class="aem-secondary-banner">
+            <div class="aem-content">
+              <h4 class="headline-4-—-28pt">Solutions for all skin health</h4>
+              <p>Explore our innovative skincare products</p>
+            </div>
+          </div>
+        </div>
+        <!-- end secondary banner -->
+        <!-- Product teaser -1-->
+        <div class="aem-GridColumn aem-GridColumn--default--12">
+          <div class="aem-product-teaser">
+            <div class="text-wrapper">Most Popular</div>
+            <div class="text-wrapper">Shop all products</div>
+          </div>
+          <div class="aem-container mt-35">
+            <div class="aem-Grid aem-Grid--default--4 aem-Grid--phone--2">
+              <div
+                class="aem-GridColumn aem-GridColumn--default--1 aem-GridColumn--phone--1 card"
+              >
+                <div class="aem-card-wrapper">
+                  <span class="aem-badge">New!</span>
+
+                  <div class="aem-card-image cream"></div>
+                  <div class="aem-card-title">Acne Cream</div>
+                  <div class="aem-card-short-description">
+                    All Natural Ingredients.
+                  </div>
+                  <div class="aem-card-price">
+                    <div class="actual-price">$24.99</div>
+                  </div>
+                  <div class="aem-add-cart-input">
+                    <div class="btn-with-icon">
+                      <span> Add to cart </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="aem-GridColumn aem-GridColumn--default--1 aem-GridColumn--phone--1 card"
+              >
+                <div class="aem-card-wrapper">
+                  <span class="aem-badge">New!</span>
+
+                  <div class="aem-card-image vitiligio"></div>
+                  <div class="aem-card-title">Vitiligio Solution</div>
+                  <div class="aem-card-short-description">
+                    All Natural Ingredients.
+                  </div>
+                  <div class="aem-card-price">
+                    <div class="actual-price">$24.99</div>
+                  </div>
+                  <div class="aem-add-cart-input">
+                    <div class="btn-with-icon">
+                      <span> Add to cart </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="aem-GridColumn aem-GridColumn--default--1 aem-GridColumn--phone--1 card"
+              >
+                <div class="aem-card-wrapper">
+                  <div class="aem-card-image ezcema"></div>
+                  <div class="aem-card-title">Ezcema Cream</div>
+                  <div class="aem-card-short-description">
+                    All Natural Ingredients.
+                  </div>
+                  <div class="aem-card-price">
+                    <div class="actual-price">$24.99</div>
+                  </div>
+                  <div class="aem-add-cart-input">
+                    <div class="btn-with-icon">
+                      <span> Add to cart </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="aem-GridColumn aem-GridColumn--default--1 aem-GridColumn--phone--1 card"
+              >
+                <div class="aem-card-wrapper">
+                  <span class="aem-badge offer">15% off</span>
+
+                  <div class="aem-card-image sunburn"></div>
+                  <div class="aem-card-title">Sunburn Ointment</div>
+                  <div class="aem-card-short-description">
+                    All Natural Ingredients.
+                  </div>
+                  <div class="aem-card-price">
+                    <span class="disc-price"> $18.99 </span>
+                    <span class="actual-price">
+                      <del>$24.99</del>
+                    </span>
+                  </div>
+                  <div class="aem-add-cart-input">
+                    <div class="btn-with-icon">
+                      <span> Add to cart </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end product  teaser -->
+        <!-- Teaser start -->
+        <div class="aem-GridColumn aem-GridColumn--default--12">
+          <section class="aem-teaser bg-teaser-1">
+            <div class="aem-col-wrapper">
+              <div class="aem-inner-wrapper">
+                <div class="aem-container">
+                  <div class="aem-content-wrapper">
+                    <h2 class="headline-2-—-40pt">
+                      Clean products that deliver better solutions
+                    </h2>
+                    <p>
+                      A healthier you from the inside out. We’ve sourced the
+                      cleanest ingredients to create a line of clean skin care
+                      treatments that leave you feeling your best
+                    </p>
+                    <div class="aem-btn-wrapper">
+                      <span class="btn-default btn-default-standard">
+                        Shop more
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="aem-background-img">
+                <div class="aem-img-wrapper"></div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!--Teaser end-->
+
+        <!-- Product teaser -2-->
+        <div class="aem-GridColumn aem-GridColumn--default--12">
+          <div class="aem-product-teaser">
+            <div class="text-wrapper">Top rated</div>
+            <div class="text-wrapper">Shop all products</div>
+          </div>
+          <div class="aem-container mt-35">
+            <div class="aem-Grid aem-Grid--default--4 aem-Grid--phone--2">
+              <div
+                class="aem-GridColumn aem-GridColumn--default--1 aem-GridColumn--phone--1 card"
+              >
+                <div class="aem-card-wrapper">
+                  <div class="aem-card-image">
+                    <img
+                      src="./image/Sooth_home/psoriasis_treatment.png"
+                      alt="Psoriasis Cream"
+                      title="Psoriasis Cream"
+                      id="image1"
+                    />
+                  </div>
+                  <div class="aem-card-title">Psoriasis Cream</div>
+                  <div class="aem-card-short-description">
+                    All Natural Ingredients.
+                  </div>
+                  <div class="aem-card-price">
+                    <div class="actual-price">$24.99</div>
+                  </div>
+                  <div class="aem-add-cart-input">
+                    <div class="btn-with-icon">
+                      <span> Add to cart </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="aem-GridColumn aem-GridColumn--default--1 aem-GridColumn--phone--1 card"
+              >
+                <div class="aem-card-wrapper">
+                  <div class="aem-card-image">
+                    <img
+                      src="./image/Sooth_home/ezcema.png"
+                      alt="Ezcema"
+                      title="Ezcema"
+                      id="image2"
+                    />
+                  </div>
+                  <div class="aem-card-title">Ezcema Cream</div>
+                  <div class="aem-card-short-description">
+                    All Natural Ingredients.
+                  </div>
+                  <div class="aem-card-price">
+                    <div class="actual-price">$24.99</div>
+                  </div>
+                  <div class="aem-add-cart-input">
+                    <div class="btn-with-icon">
+                      <span> Add to cart </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="aem-GridColumn aem-GridColumn--default--1 aem-GridColumn--phone--1 card"
+              >
+                <div class="aem-card-wrapper">
+                  <div class="aem-card-image">
+                    <img
+                      src="./image/Sooth_home/suburn1.png"
+                      alt="Sunburn"
+                      title="Sunburn"
+                      id="image3"
+                    />
+                  </div>
+                  <div class="aem-card-title">Sunburn Ointment</div>
+                  <div class="aem-card-short-description">
+                    All Natural Ingredients.
+                  </div>
+                  <div class="aem-card-price">
+                    <span class="actual-price"> $24.99 </span>
+                  </div>
+                  <div class="aem-add-cart-input">
+                    <div class="btn-with-icon">
+                      <span> Add to cart </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="aem-GridColumn aem-GridColumn--default--1 aem-GridColumn--phone--1 card"
+              >
+                <div class="aem-card-wrapper">
+                  <div class="aem-card-image">
+                    <img
+                      src="./image/Sooth_home/vitiligio_Balm.png"
+                      alt="Vitiligio Balm"
+                      title="Vitiligio Balm"
+                      id="image4"
+                    />
+                  </div>
+                  <div class="aem-card-title">Vitiligio Balm</div>
+                  <div class="aem-card-short-description">
+                    All Natural Ingredients.
+                  </div>
+                  <div class="aem-card-price">
+                    <div class="actual-price">$24.99</div>
+                  </div>
+                  <div class="aem-add-cart-input">
+                    <div class="btn-with-icon">
+                      <span> Add to cart </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="aem-GridColumn aem-GridColumn--default--1 aem-GridColumn--phone--1 card"
+              >
+                <div class="aem-card-wrapper">
+                  <div class="aem-card-image">
+                    <img
+                      src="./image/Sooth_home/vitiligio.png"
+                      alt="Vitiligio"
+                      title="Vitiligio"
+                      id="image5"
+                    />
+                  </div>
+                  <div class="aem-card-title">Vitiligio Solution</div>
+                  <div class="aem-card-short-description">
+                    All Natural Ingredients.
+                  </div>
+                  <div class="aem-card-price">
+                    <div class="actual-price">$24.99</div>
+                  </div>
+                  <div class="aem-add-cart-input">
+                    <div class="btn-with-icon">
+                      <span> Add to cart </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="aem-GridColumn aem-GridColumn--default--1 aem-GridColumn--phone--1 card"
+              >
+                <div class="aem-card-wrapper">
+                  <div class="aem-card-image">
+                    <img
+                      src="./image/Sooth_home/Cream1-1.png"
+                      alt="Cream"
+                      title="Cream"
+                      id="image6"
+                    />
+                  </div>
+                  <div class="aem-card-title">Acne Cream</div>
+                  <div class="aem-card-short-description">
+                    All Natural Ingredients.
+                  </div>
+                  <div class="aem-card-price">
+                    <div class="actual-price">$24.99</div>
+                  </div>
+                  <div class="aem-add-cart-input">
+                    <div class="btn-with-icon">
+                      <span> Add to cart </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="aem-GridColumn aem-GridColumn--default--1 aem-GridColumn--phone--1 card"
+              >
+                <div class="aem-card-wrapper">
+                  <div class="aem-card-image">
+                    <img
+                      src="./image/Sooth_home/acne_Cream.png"
+                      alt="Acne Cream"
+                      title="Acne Cream"
+                      id="image7"
+                    />
+                  </div>
+                  <div class="aem-card-title">Acne Cream</div>
+                  <div class="aem-card-short-description">
+                    All Natural Ingredients.
+                  </div>
+                  <div class="aem-card-price">
+                    <div class="actual-price">$24.99</div>
+                  </div>
+                  <div class="aem-add-cart-input">
+                    <div class="btn-with-icon">
+                      <span> Add to cart </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="aem-GridColumn aem-GridColumn--default--1 aem-GridColumn--phone--1 card"
+              >
+                <div class="aem-card-wrapper">
+                  <div class="aem-card-image">
+                    <img
+                      src="./image/Sooth_home/ezema_dropper.png"
+                      alt="Ezcema Oil"
+                      title="Ezcema Oil"
+                      id="image8"
+                    />
+                  </div>
+                  <div class="aem-card-title">Ezcema Oil</div>
+                  <div class="aem-card-short-description">
+                    All Natural Ingredients.
+                  </div>
+                  <div class="aem-card-price">
+                    <div class="actual-price">$24.99</div>
+                  </div>
+                  <div class="aem-add-cart-input">
+                    <div class="btn-with-icon">
+                      <span> Add to cart </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end product  teaser -->
+
+        <!-- start Teaser-2  -->
+        <div class="aem-GridColumn aem-GridColumn--default--12">
+          <section class="aem-teaser-2 bg-teaser-2">
+            <div class="aem-col-wrapper">
+              <div class="aem-background-img">
+                <div class="aem-img-wrapper"></div>
+              </div>
+              <div class="aem-inner-wrapper">
+                <div class="aem-container">
+                  <div class="aem-content-wrapper">
+                    <h2 class="headline-2-—-40pt">All Natural Ingredients.</h2>
+                    <p>
+                      A healthier you from the inside out. We’ve sourced the
+                      cleanest ingredients to create a line of clean skin care
+                      treatments that leave you feeling your best
+                    </p>
+                    <div class="aem-btn-wrapper">
+                      <span class="btn-default btn-default-standard">
+                        Shop more
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!--end Teaser-2 -->
+        <!-- Product teaser -3-->
+        <div class="aem-GridColumn aem-GridColumn--default--12 bg-alabasterr">
+          <div class="aem-product-teaser">
+            <div class="text-wrapper">Recommended</div>
+            <div class="text-wrapper recomended-text">Recommended for you</div>
+            <div class="text-wrapper">Shop all products</div>
+          </div>
+
+          <div class="aem-Grid aem-Grid--default--4  mt-35">
+            <div class="recommended-card">
+              <div class="card">
+                <div class="aem-card-wrapper">
+                  <div class="aem-card-image">
+                    <img
+                      src="./image/Sooth_home/psoriasis_treatment-1.png"
+                      alt="Cream"
+                      title="Cream"
+                      id="psoriasis"
+                    />
+                  </div>
+                  <div class="aem-card-title">Psoriasis Cream</div>
+                  <div class="aem-card-short-description">
+                    All Natural Ingredients.
+                  </div>
+                  <div class="aem-card-price">
+                    <div class="actual-price">$24.99</div>
+                  </div>
+                  <div class="aem-add-cart-input">
+                    <div class="btn-with-icon">
+                      <span> Add to cart </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="aem-card-wrapper">
+                  <div class="aem-card-image">
+                    <img
+                      src="./image/Sooth_home/suburn_balm.png"
+                      alt="Sunburn Balm"
+                      title="Sunburn Balm"
+                      id="sunburn"
+                    />
+                  </div>
+                  <div class="aem-card-title">Sunburn Balm</div>
+                  <div class="aem-card-short-description">
+                    All Natural Ingredients.
+                  </div>
+                  <div class="aem-card-price">
+                    <div class="actual-price">$24.99</div>
+                  </div>
+                  <div class="aem-add-cart-input">
+                    <div class="btn-with-icon">
+                      <span> Add to cart </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="aem-card-wrapper">
+                  <div class="aem-card-image bg-leves">
+                    <img
+                      src="./image/Sooth_home/psoriasi_Cream.png"
+                      alt="Psoriasis Cream"
+                      title="Psoriasis Cream"
+                      id="psoriasis-leaf"
+                    />
+                  </div>
+                  <div class="aem-card-title">Psoriasis Cream</div>
+                  <div class="aem-card-short-description">
+                    All Natural Ingredients.
+                  </div>
+                  <div class="aem-card-price">
+                    <div class="actual-price">$24.99</div>
+                  </div>
+                  <div class="aem-add-cart-input">
+                    <div class="btn-with-icon">
+                      <span> Add to cart </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="aem-card-wrapper">
+                  <div class="aem-card-image">
+                    <img
+                      src="./image/Sooth_home/vitiglio_treatment.png"
+                      alt="Vitiligio Treatment"
+                      title="Vitiligio Treatment"
+                      id="vitiligio-tratment"
+                    />
+                  </div>
+                  <div class="aem-card-title">Vitiligio Treatment</div>
+                  <div class="aem-card-short-description">
+                    All Natural Ingredients.
+                  </div>
+                  <div class="aem-card-price">
+                    <div class="actual-price">$24.99</div>
+                  </div>
+                  <div class="aem-add-cart-input">
+                    <div class="btn-with-icon">
+                      <span> Add to cart </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+        <!-- end product-3  teaser -->
+        <!-- Image tiles -->
+        <div
+          class="aem-Grid aem-Grid--default--12 aem-Grid--tablet--8 aem-Grid--phone--2 img-tiles"
+        >
+          <div class="aem-product-tiles">
+            <div class="aem-header-title">
+              <h3>We use the best ingredients</h3>
+              <p>Explore our innovative skincare products</p>
+            </div>
+            <div
+              class="aem-Grid aem-Grid--default--12  aem-Grid--tablet--12 aem-Grid--phone--3 tiles-image"
+            >
+              <div
+                class="aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--tablet--4 aem-GridColumn--phone--3"
+              >
+                <div class="aem-tiles-card">
+                  <div class="tiles-card image-1"></div>
+                  <div class="tiles-name">Cacao</div>
+                  <div class="tiles-description">Lorem ipsum dolar et al</div>
+                </div>
+              </div>
+              <div
+                class="aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--tablet--4 aem-GridColumn--phone--3"
+              >
+                <div class="aem-tiles-card">
+                  <div class="tiles-card image-2"></div>
+                  <div class="tiles-name">Honey</div>
+                  <div class="tiles-description">Lorem ipsum dolar et al</div>
+                </div>
+              </div>
+              <div
+                class="aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--tablet--4 aem-GridColumn--phone--3"
+              >
+                <div class="aem-tiles-card">
+                  <div class="tiles-card image-3"></div>
+                  <div class="tiles-name">Mint</div>
+                  <div class="tiles-description">Lorem ipsum dolar et al</div>
+                </div>
+              </div>
+              <div
+                class="aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--tablet--4 aem-GridColumn--phone--3"
+              >
+                <div class="aem-tiles-card">
+                  <div class="tiles-card image-4"></div>
+                  <div class="tiles-name">Coconut root</div>
+                  <div class="tiles-description">Lorem ipsum dolar et al</div>
+                </div>
+              </div>
+              <div
+                class="aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--tablet--4 aem-GridColumn--phone--3"
+              >
+                <div class="aem-tiles-card">
+                  <div class="tiles-card image-5"></div>
+                  <div class="tiles-name">Flour</div>
+                  <div class="tiles-description">Lorem ipsum dolar et al</div>
+                </div>
+              </div>
+              <div
+                class="aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--tablet--4 aem-GridColumn--phone--3"
+              >
+                <div class="aem-tiles-card">
+                  <div class="tiles-card image-6"></div>
+                  <div class="tiles-name">Cacao</div>
+                  <div class="tiles-description">Lorem ipsum dolar et al</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end image tiles -->
+
+        <!--Feature banner-->
+        <div class="aem-GridColumn aem-GridColumn--default--12">
+          <section class="aem-feature-banner">
+            <div class="aem-feature-content">
+              <ul>
+                <li>
+                  <div class="icon">
+                    <img
+                      src="image/storefront-outline.svg"
+                      alt="store"
+                      title="Store"
+                    />
+                  </div>
+                  <div class="discription">
+                    We’re offering new ways to shop.
+                  </div>
+                  <div class="link-store-locator"><a href="#">Store locator</a></div>
+                </li>
+                <li>
+                  <div class="icon">
+                    <img src="image/cart.svg" alt="Cart" title="Cart" />
+                  </div>
+                  <div class="discription">Buy online, pickup in store</div>
+                  <div class="link-store-locator"><a href="#">Learn more</a></div>
+                </li>
+                <li>
+                  <div class="icon">
+                    <img src="image/call-outline.svg" alt="Call" title="Call" />
+                  </div>
+                  <div class="discription">Curbside <br />pickup</div>
+                  <div class="link-store-locator"><a href="#"> Learn more</a></div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <!-- end of Feature banner -->
+        <!--News banner-->
+        <div class="aem-GridColumn aem-GridColumn--default--12">
+          <section class="aem-news--banner">
+            <div class="aem-news-content">
+              <div class="aem-title-text">
+                <span>Join the Sooth family</span>
+              </div>
+              <div class="line-border"></div>
+              <div class="aem-pragraph">
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy
+                </p>
+              </div>
+              <div class="aem-subscribe">
+                <input type="text" class="form-control-error" />
+                <button class="btn-subscribe btn-subscribe-standard">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!-- end of News banner -->
+      </main>
+    </div>
+    <!-- Start Footer banner -->
+
+    <footer>
+      <div class="aem-Grid aem-Grid--default--12">
+        <div class="aem-footer-content">
+          <div class="aem-footer-column">
+            <div class="aem-footer-subscribe">
+              <div class="aem-footer-logo">
+                sooth
+                <p>Explore our innovative skincare products</p>
+              </div>
+              <div class="aem-footer-input-subsriber">
+                <input type="text" class="form-control-standard" />
+                <button class="btn-subscribe btn-subscribe-standard">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+            <div class="aem-footer-navigation">
+              <div class="aem-child-column">
+                <div class="aem-child-navigation">
+                  <title>Shop</title>
+                  <ul>
+                    <li><a href="#">Lorem ipsum al</a></li>
+                    <li><a href="#">Dolar at</a></li>
+                    <li><a href="#">Veraotio</a></li>
+                    <li><a href="#">Chauloe</a></li>
+                  </ul>
+                </div>
+                <div class="aem-child-navigation">
+                  <title>About</title>
+                  <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Sooth Stories (Blog)</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Learn More</a></li>
+                    <li><a href="#">Stores</a></li>
+                  </ul>
+                </div>
+                <div class="aem-child-navigation">
+                  <title>More</title>
+                  <ul>
+                    <li><a href="#">Dolar at</a></li>
+                    <li><a href="#">Lorem at al</a></li>
+                    <li><a href="#">Veraotio</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="aem-footer-column-bottom">
+            <div class="aem-footer-copyright">
+              <p>SOOTH ALL RIGHTS RESERVED</p>
+              <div class="aem-content-wrapper">
+                <div class="aem-scurity-info"><a href="#">Privacy Policy</a></div>
+                <div class="aem-scurity-info"><a href="#">Terms of Use</a></div>
+                <div class="aem-scurity-info"><a href="#">Contact Us</a></div>
+              </div>
+            </div>
+            <div class="aem-footer-socialmedia">
+              <div class="aem-social-icon facebook"></div>
+              <div class="aem-social-icon instagram"></div>
+              <div class="aem-social-icon twitter"></div>
+              <div class="aem-social-icon youtube"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--End Footer banner  -->
+  </body>
+  <script type="text/javascript" src="./dist/scripts/scripts.js"></script>
+</html>

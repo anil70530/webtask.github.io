@@ -1,0 +1,255 @@
+@import"../globel/variable.scss";
+.aem-product-teaser {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 40px 0 29px;
+  .text-wrapper {
+    font: $font-style-normal normal
+      $font-weight-bold $font-size-14  $font-family-proxima-nova;
+    letter-spacing: $character-spacing-0;
+    color: $rangitoto-2e2e22;
+    opacity: 1;
+  }
+  .recomended-text {
+    display: none;
+  }
+}
+
+.aem-container {
+  max-width: 85%;
+  margin: 0 auto 111px auto;
+
+  .card {
+    padding: 0% 0 24px 0;
+    .aem-card-wrapper {
+      width: calc(100% - 5%);
+      height: 462px;
+      display: block;
+      position: relative;
+
+      .aem-badge {
+        position: absolute;
+        top: 12px;
+        left: 15px;
+        font-weight: 600;
+        font-size: $font-size-12;
+        color: $oxford-blue-354e57;
+        padding: 9px 11px;
+        background-color: $alabasterr-f7f7f7;
+        &.offer {
+          color: $cape-palliser-a67744;
+          font-size: $font-size-12;
+        }
+      }
+
+      .aem-card-image {
+        height: 346px;
+        background-color: #ffffff;
+        margin-top: 10px;
+        &.cream {
+          background-image: url(../../../image/Sooth_home/Cream1-1.png);
+          background-repeat: no-repeat;
+          background-position: 0% 112%;
+          background-size: contain;
+          &:hover {
+            background: #fafafa
+              url(../../../image/Sooth_home/product-teaser-hover.PNG) 0% 100%
+              no-repeat padding-box;
+            background-size: 1000px 345px;
+          }
+        }
+        &.vitiligio {
+          background-image: url(../../../image/Sooth_home/vitiligio.png);
+          background-repeat: no-repeat;
+          background-position: 0% 62%;
+          background-size: contain;
+          &:hover {
+            background: #fafafa
+              url(../../../image/Sooth_home/product-teaser-hover.PNG) 33% 20%
+              no-repeat padding-box;
+            background-size: 1100px 345px;
+           
+          }
+        }
+        &.ezcema {
+          background-image: url(../../../image/Sooth_home/ezcema.png);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: contain;
+          &:hover {
+            background: #fafafa
+              url(../../../image/Sooth_home/product-teaser-hover.PNG) 66% 10%
+              no-repeat padding-box;
+            background-size: 1100px 345px;
+          }
+        }
+        &.sunburn {
+          background-image: url(../../../image/Sooth_home/suburn1.png);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: contain;
+          &:hover {
+            background: #fafafa
+              url(../../../image/Sooth_home/product-teaser-hover.PNG) 100% 100%
+              no-repeat padding-box;
+            background-size: 1000px 345px;
+          }
+        }
+        img {
+          width: 100%;
+        }
+        #image1{
+           padding-top: 25%;
+        }
+        #image2{
+          padding-top: 31%;
+        }
+        #image3{
+          padding-top: 31%;
+        }
+        #image4{
+          padding-top: 30%;
+        }
+        #image5{
+          padding-top: 31%;
+        }
+        #image6{
+          padding-top: 22%;
+        }
+        #image7{
+          padding-top: 10%;
+        }
+        #image8{
+          padding-top: 22%;
+        }
+      }
+
+      .aem-card-title {
+        font: $font-style-normal normal
+          $font-weight-bold $font-size-14 $font-family-proxima-nova;
+        letter-spacing: $character-spacing-0;
+        color: $rangitoto-2e2e22;
+        text-align: left;
+        margin-top: 14px;
+      }
+      .aem-card-short-description {
+        font: $font-style-normal normal
+          $font-weight-normal 12px/16px
+          $font-family-proxima-nova;
+        letter-spacing: $character-spacing-0;
+        color: $rangitoto-2e2e22;
+        text-align: left;
+        font: normal normal normal 12px/16px Proxima Nova;
+        letter-spacing: 0px;
+        color: #2e2e22;
+        opacity: 1;
+      }
+      .aem-card-price {
+        line-height: 15px;
+        padding-top: 9px;
+
+        .disc-price {
+          color: $cape-palliser-a67744;
+          font-size: $font-size-12;
+          font-weight: bold;
+        }
+        .actual-price {
+          font-size: $font-size-12;
+          font-weight: bold;
+          color: $rangitoto-2e2e22;
+        }
+      }
+      .aem-add-cart-input {
+        margin-top: 10px;
+        .btn-with-icon {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+.recommended-card {
+  margin: 0 auto 0px auto;
+  max-width: 85%;
+  display: flex;
+
+  .card {
+    margin: 0 15px 0 0;
+    .aem-card-wrapper {
+      max-width: 251px;
+      height: 462px;
+      display: block;
+      position: relative;
+      .aem-card-image {
+        content: "";
+        height: 346px;
+        background-color: #ffffff;
+        margin-top: 10px;
+        #psoriasis {
+          padding-top: 25%;
+        }
+        #sunburn {
+          padding-top: 50%;
+        }
+        #psoriasis-leaf {
+          padding-top: 35%;
+        }
+        #vitiligio-tratment {
+          padding-top: 52%;
+        }
+
+        img {
+          width: 100%;
+        }
+        &.bg-leves {
+          background-image: url(../../../image/Sooth_home/annie-spratt-hX_hf2lPpUU-unsplash.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          background-color: transparent;
+        }
+      }
+
+      .aem-card-title {
+        font: $font-style-normal normal
+          $font-weight-bold $font-size-14  $font-family-proxima-nova;
+        letter-spacing: $character-spacing-0;
+        color: $rangitoto-2e2e22;
+        text-align: left;
+        margin-top: 14px;
+      }
+      .aem-card-short-description {
+        font: $font-style-normal normal
+          $font-weight-normal 12px/16px
+          $font-family-proxima-nova;
+        letter-spacing: $character-spacing-0;
+        color: $rangitoto-2e2e22;
+        text-align: left;
+        opacity: 1;
+      }
+      .aem-card-price {
+        line-height: 15px;
+        padding-top: 9px;
+
+        .disc-price {
+          color: $cape-palliser-a67744;
+          font-size: $font-size-12;
+          font-weight: bold;
+        }
+        .actual-price {
+          font-size: $font-size-12;
+          font-weight: bold;
+          color: $rangitoto-2e2e22;
+        }
+      }
+      .aem-add-cart-input {
+        margin-top: 10px;
+        .btn-with-icon {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
