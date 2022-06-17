@@ -5,7 +5,7 @@ footer {
   opacity: 1;
   height: 736px;
   .aem-footer-content {
-    width: 85%;
+    max-width: 1130px;
     margin: 167px auto 0 auto;
     color: $white-ffffff;
     .aem-footer-column {

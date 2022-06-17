@@ -1,6 +1,6 @@
 @import"../globel/variable.scss";
 .aem-product-teaser {
-  width: 85%;
+  max-width: 1130px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -18,7 +18,7 @@
 }
 
 .aem-container {
-  max-width: 85%;
+  max-width: 1130px;
   margin: 0 auto 111px auto;
 
   .card {
@@ -172,7 +172,7 @@
 }
 .recommended-card {
   margin: 0 auto 0px auto;
-  max-width: 85%;
+  max-width: 1130px;
   display: flex;
 
   .card {

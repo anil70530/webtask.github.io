@@ -5,11 +5,11 @@
   position: relative;
   overflow: hidden;
   height: 632px;
-  
+  background: #e0e3e8;
   .aem-bg-img {
     position: absolute;
-    right: -46%;
-    top: -88px;
+    right: -38%;
+    top: -98px;
     width: 1440px;
    
     img {
@@ -17,7 +17,7 @@
     }
   }
   .aem-container {
-    width: 85%;
+    max-width: 1130px;
     display: block;
     margin: 0 auto;
 
@@ -87,7 +87,7 @@
             content: "";
             position: absolute;
             bottom: 32%;
-            right: 22%;
+            right: 26%;
             min-width: 200px;
             height: 70%;
             background: url(../../image/Sooth_home/plant-1.png) center no-repeat;
