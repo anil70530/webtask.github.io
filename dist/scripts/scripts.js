@@ -32,7 +32,7 @@
     const findScreenSize = () => {
         let addClass = document.getElementById("compatible-device");
         if (className !== "") addClass.classList.remove(className);
-        var width = screen.width;
+        var width = window.innerWidth;
         console.log(width)
         if (width <= 320) className = "mobile";
         else if (width <= 991 && width >= 320) className = "tablet";

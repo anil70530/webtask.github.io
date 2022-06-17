@@ -1,5 +1,5 @@
-@import"../globel/variable.scss";
-@media screen and (max-width:768px) {
+@import "../globel/variable.scss";
+@media screen and (max-width: 991px) {
   //Header
   .tablet {
     .aem-header {
@@ -36,14 +36,24 @@
         display: block;
         font-size: 1.5rem;
         max-width: 10%;
-        font: $font-style-normal  medium 16px/20px
-          $font-family-proxima-nova;
+        font: $font-style-normal normal 16px/20px $font-family-proxima-nova;
         margin-top: 0px;
         color: #293d45;
-        img{
+        display: flex;
+        height: 24px;
+        span {
+          padding-left: 20px;
+          letter-spacing: 1.6px;
+          color: #293d45;
+          opacity: 1;
+          text-align: center;
+          font-size: 25px;
+         
+        }
+        img {
           width: 50%;
-          &.mobile-nav-icon{
-              height: 100%;
+          &.mobile-nav-icon {
+            height: 100%;
           }
         }
       }
@@ -74,6 +84,9 @@
       opacity: 1;
       z-index: 99999;
       transition: opacity 2s linear;
+      header{
+        width: 100%;
+      }
       .aem-topheader {
         display: block;
         position: absolute;
@@ -155,7 +168,7 @@
         top: -61%;
         right: -104%;
         width: 404%;
-    }
+      }
       .aem-container {
         width: 100%;
         .aem-column-wrapper {
@@ -166,13 +179,11 @@
             margin-top: 15%;
             width: 100%;
             font-size: 1.2rem;
-            .heading-1{
+            .heading-1 {
               font-size: $font-size-42;
-            
             }
             .aem-banner-title {
               padding: 10px;
-              
             }
             .aem-new {
               display: none;
